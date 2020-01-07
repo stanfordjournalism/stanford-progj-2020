@@ -1,6 +1,6 @@
 # Software, tools, etc.
 
-This course requires a number of free services and tools available on Unix/Mac systems. If you're on Windows, see below for options.
+This course requires a number of free service and tools available on Unix/Mac systems. If you're on Windows, see below for options.
 
 ## Services/Platforms
 
@@ -27,15 +27,17 @@ For a more pleasant shell experience, we strongly recommend installing [iTerm2](
 
 ## Version control
 
-We'll use the [git][] [version control][] system to save and submit all of the code and data related to class assignments, exercises and projects.
+[Git][] is a [version control][] system that we'll use to save and submit all the code and data related to class assignments, exercises and projects.
+
+[version control]: https://en.wikipedia.org/wiki/Version_control
 
 ### Mac
 
-For beginner Mac users, install [Homebrew][] (a package manager) and then use it to install git.
+For beginner Mac users, install [Homebrew][], a software package manager used on the command line. Then use Homebrew to install git.
 
 Open a Terminal shell (see above) and then run the below commands. Along the way, you'll be prompted to agree to Apple licensing terms and to provide your laptop password.
 
-> Note: he below commands are based on Steps 1-3 of [How to Install Xcode, Homebrew, Git etc.](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#laptop-script) See the blog post for more details.
+> Note: The below commands are based on Steps 1-3 of [How to Install Xcode, Homebrew, Git etc.](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#laptop-script) See the blog post for more details.
 
 ```
 xcode-select --install
