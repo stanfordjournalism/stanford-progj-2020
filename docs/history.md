@@ -69,6 +69,7 @@ These days, data journalists are building on this tradition by publishing the ra
 * [Buzzfeed News](https://github.com/buzzfeednews)
 * [LAT](https://github.com/datadesk)
 * [NYT](https://github.com/newsdev)
+* [ProPublica](https://github.com/propublica)
 
 The combination of code, data and journalism positions us to tell engaging, creative stories. It arms us with the ability to search for patterns and outliers in an increasingly data-driven world. It allows us to increase trust in our practices by inviting the public into our process, and empowering others to build on our work.
 
