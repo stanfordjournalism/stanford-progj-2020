@@ -2,6 +2,8 @@
 
 This course requires a number of free service and tools available on Unix/Mac systems. If you're on Windows, see below for options.
 
+> See the [Technical FAQ page](tech_faq.md) if you run into snags and/or [report an issue](https://github.com/stanfordjournalism/stanford-progj-2020/issues).
+
 ## Services/Platforms
 
 * Slack: Join the **comm-177p-progj** channel in the [StanfordJournalism][] workspace.
@@ -9,9 +11,14 @@ This course requires a number of free service and tools available on Unix/Mac sy
 
 ## Windows
 
-Windows users should [install VirtualBox and Ubuntu Linux][]. Then perform the installations below.
+Windows users should download the latest "LTS" desktop version from the [Ubuntu downloads page][] and then [install VirtualBox and Ubuntu Linux][].
 
+Then perform the installations below *inside the Ubuntu virtual machine*.
+
+[Ubuntu downloads page]: https://ubuntu.com/download/desktop
 [install VirtualBox and Ubuntu Linux]: https://brb.nci.nih.gov/seqtools/installUbuntu.html
+
+
 
 ## Text Editor
 
