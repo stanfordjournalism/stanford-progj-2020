@@ -1,6 +1,6 @@
 # Software, tools, etc.
 
-This course requires a number of free service and tools available on Unix/Mac systems. If you're on Windows, see below for options.
+This course requires a number of free services and tools available on Unix/Mac systems. If you're on Windows, see below for options.
 
 > See the [Technical FAQ page](tech_faq.md) if you run into snags and/or [report an issue](https://github.com/stanfordjournalism/stanford-progj-2020/issues).
 
