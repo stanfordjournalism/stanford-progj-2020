@@ -85,9 +85,20 @@ Follow the instructions under [Generating a new ssh key][]. Do **not set a passp
 
 ## Python
 
-* Python 3.7 (or >= 3.5)
-* pip
-* pipenv
+**Python 3.5 - 3.7**
+
+Before installing Python, first open a shell and run: `python --version`.
+
+If you have a version between Python 3.5 and 3.7, you're all set.
+
+If you have an older Python version (e.g. 2.7), please follow the Hitchhiker's Guide to Python [install instructions][]. 
+
+### Mac
+
+Follow [these steps][] but skip the installation of Homebrew, which should have been installed earlier when we set up git (see above).
+
+[install instructions]: https://docs.python-guide.org/starting/installation/
+[these steps]: https://docs.python-guide.org/starting/install3/osx/#install3-osx
 
 
 
