@@ -48,14 +48,21 @@ You can apply this methodology to varying degrees of granularity. Just try to ke
 Pólya's advice on problem-solving works nicely in tandem with Unix
 tools, which are inspired by the more general [Unix
 Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) of 
-"Do One Thing and Do It Well." Before diving into solving a big Problem (with a capital "P"), take time to break it down into smaller parts. Externalize your strategy on paper or whiteboard until you have a discrete set of problems.
+"Do One Thing and Do It Well."
+
+Before diving into solving a big Problem (with a capital "P"), take time to break it down into smaller parts. Externalize your strategy on paper or whiteboard until you have a discrete set of problems.
 
 Then, search for Unix tools or features that can solve each problem. As you identify tools, don’t immediately dive into implementing your
 solution. Take some to read about and experiment with each tool.
-Gradually build up your solution to each sub-problem.
+Gradually build up your solution to each sub-problem. Along the way, don't forget that you can use [Unix pipes and filters][] to create multi-step pipelines:
 
-Finally, combine your "sub-solutions" into a single script -- or perhaps several -- that can be
-run on demand.
+```
+$ cat animals.txt | head -n 5 | tail -n 3 | sort -r > final.txt
+```
+
+[Unix pipes and filters]: https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html
+
+Finally, combine your "sub-solutions" into a single script -- or perhaps several -- that can be run on demand.
 
 ## Recommended Reading
 
