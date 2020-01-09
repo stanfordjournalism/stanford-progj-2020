@@ -13,7 +13,7 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 
 ### Week 1
 
-**Day 1 - Course Intro**
+#### Day 1 - Course Intro
 
 * Overview of the course and syllabus.
 * Discuss the [history](docs/history.md) of code and data analysis in journalism. 
@@ -21,12 +21,12 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 * Software install party (w00t!!)
 * [Assignment 0](assignments/0.md) - Tech setup; Unix practice and reading (**Due: Mon. Jan 13th**)
 
-**Day 2 - The Owl, Problem Solving, and the Unix Workbench**
+#### Day 2 - The Owl, Problem Solving, and the Unix Workbench
 
 * [The Owl, Problem Solving, and the Unix Workbench](docs/owl_probs_unix.md)
 * Group problem-solving exercise: Program your way to the Oval
 * Hands-on bash practice with [CLI murder mystery][] and [bashcrawl][]
-* [Software installs](docs/tech_setup.md), part deux
+* [Software installs](docs/tech_setup.md), part deux (ssh keys and Python)
 * [Assignment 0](assignments/0.md) - Tech setup; Unix practice and reading (**Due: Mon. Jan 13th**)
 
 [CLI murder mystery]: https://github.com/veltman/clmystery
