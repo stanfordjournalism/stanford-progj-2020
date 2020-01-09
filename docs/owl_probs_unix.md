@@ -41,7 +41,7 @@ You can apply this methodology to varying degrees of granularity. Just try to ke
 
 ![xkcd tar forgetting](https://imgs.xkcd.com/comics/tar.png)
 
-## Problem-solving, the Unix way
+## Problem solving, the Unix way
 
 > *"Every woodworker needs a good, solid, reliable workbench, somewhere to hold work pieces at a convenient height while he or she works them...For a programmer manipulating files of text, that workbench is the command shell." ~ The Pragmatic Programmer, p. 77*
 
