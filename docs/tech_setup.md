@@ -74,6 +74,13 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+Use the below commands to ensure the configuration worked:
+
+```
+git config --global --get user.name
+git config --global --get user.email
+```
+
 ## Generate ssh keys
 
 SSH keys are a best practice for secure network communications. In our case, we'll use them to more easily transfer code to and from GitHub. 
