@@ -147,7 +147,7 @@ See [here](https://github.com/stanfordjournalism/cookiecutter-stanford-progj) fo
 
 ### Install
 
-Follow the steps in [Tech Setup - DataKit](tech_setup.md#datakit). *Note, you must first work through the preceding steps in the Technical Setup.*
+Follow the steps in [Tech Setup - DataKit](tech_setup.md). *Note, you must first work through the preceding steps in the Technical Setup.*
 
 ### Kick the tires
 
