@@ -158,15 +158,11 @@ datakit project create --template gh:stanfordjournalism/cookiecutter-stanford-pr
 
 ```
 
-> After creating the first project (see above), you can use DataKit on subsequent assignments by simply running:
+> After creating the first project (see above), you can use DataKit on subsequent assignments by simply running: `datakit project create`
 
-```
-datakit project create
-```
+After running the above, pay careful attention to the shell output. It should provide the URL for the auto-generated GitHub repo.
 
-You can view the generated GitHub repo at the URL mentioned in the shell output.
-
-Next, test drive the installation of Python dependencies and saving your work.
+Next, install Python dependencies for the project test the process of saving work.
 
 ```
 # Navigate to the newly created project folder
