@@ -85,14 +85,20 @@ Ok, on to some wrangling!
 * Combine the two city budget files and save them in a single file called `city_budgets.csv`
 * Join the city population data to the merged budgets file and save it in a new file called `city_budget_pop.csv`
 * Filter the data to only keep cities in California. Save it in a new file called `city_budget_pop_ca.csv`
-* Create a new file by cutting out the state fields from `city_budget_pop_ca.csv`. There should be two state fields in the source file: one from the budgets data along with the state field merged in from the city populations. Redirect the slimmed-down data into a few file callsed `city_budget_pop_ca_subset.csv`.
-* Sorting `city_budget_pop_ca_subset.csv` by year and amount in descending order using csvkit's pre-built utility for sorting. 
+* Create a new file by cutting out the state fields from `city_budget_pop_ca.csv`. There should be two state fields in the source file: one from the budgets data along with the state field merged in from the city populations. Save the subsetted data into a new file called `city_budget_pop_ca_subset.csv`.
+* Sort `city_budget_pop_ca_subset.csv` by year and amount in descending order using csvkit's pre-built utility for sorting. 
 * Sort `city_budget_pop_ca_subset.csv` by year (lowest to highest) and by amount (highest to lowest) using csvkit's tool for writing SQL against a CSV. Which city had the highest overall budget in 2019 and 2020?
 * Flesh out this [shell script][] to automate all of the above steps. You can download a local copy with the below command:
+
 ```
-curl -O https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/code/city_budget_pops.sh
+curl -O https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/code/csvkit_wrangle.sh
 ```
-* Run your script: `sh city_budget_pops.sh`
+
+* And run the script with this command:
+
+```
+sh csvkit_wrangle.sh
+```
 
 
 [Why csvkit?]: https://csvkit.readthedocs.io/en/latest/#why-csvkit
