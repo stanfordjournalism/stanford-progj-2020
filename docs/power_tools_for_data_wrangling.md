@@ -162,7 +162,7 @@ datakit project create --template gh:stanfordjournalism/cookiecutter-stanford-pr
 
 After running the above, pay careful attention to the shell output. It should provide the URL for the auto-generated GitHub repo.
 
-Next, install Python dependencies for the project test the process of saving work.
+Next, install Python dependencies for the project and test the process of saving work.
 
 ```
 # Navigate to the newly created project folder
