@@ -64,7 +64,7 @@ It's a well-documented and rich suite of tools that exemplifies the Unix philoso
 
 ### Group exercise
 
-Take a few minutes to review the feature's mentioned on [Why csvkit?](). 
+Take a few minutes to review the feature's mentioned on [Why csvkit?][]. 
 
 Next, install csvkit and try using its tools to explore and wrangle the data: `pip install csvkit`
 
