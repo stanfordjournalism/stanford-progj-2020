@@ -118,14 +118,12 @@ Follow [these steps][] but skip the installation of Homebrew, which should have 
 
 ## DataKit
 
-[DataKit][] is a command-line tool we'll use to manage the code and data for class assignments. It provides us with a standardized structure for all of our projects and allows us to easily submit code as private repos on GitHub.
+[DataKit][] is a command-line tool we'll use to manage code and data for class assignments. It provides us with a standardized structure for all of our projects and allows us to easily submit code to GitHub.
 
 Follow the below steps to install and configure DataKit:
 
 ```
-pip install datakit-core
-pip install datakit-project
-pip install datakit-github
+curl -s https://raw.githubusercontent.com/stanfordjournalism/cookiecutter-stanford-progj/master/requirements.txt | xargs pip install
 
 curl -O https://raw.githubusercontent.com/stanfordjournalism/stanford-dj-vm/master/configure_system.py
 
