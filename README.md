@@ -31,3 +31,11 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 
 [CLI murder mystery]: https://github.com/veltman/clmystery
 [bashcrawl]: https://gitlab.com/slackermedia/bashcrawl
+
+### Week 2
+
+#### Day 3 - Power Tools for Data Wrangling
+
+* [Power Tools for Data Wrangling](docs/power_tools_for_data_wrangling.md)
+* DataKit overview and [install](docs/tech_setup.md#datakit)
+
