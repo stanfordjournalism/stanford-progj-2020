@@ -114,3 +114,24 @@ Follow [these steps][] but skip the installation of Homebrew, which should have 
 [git]: https://git-scm.com/
 [StanfordJournalism]: https://stanford-r8xo.slack.com/home
 [VSCode]: https://code.visualstudio.com/
+
+
+## DataKit
+
+[DataKit][] is a command-line tool we'll use to manage the code and data for class assignments. It provides us with a standardized structure for all of our projects and allows us to easily submit code as private repos on GitHub.
+
+Follow the below steps to install and configure DataKit:
+
+```
+pip install datakit-core
+pip install datakit-project
+pip install datakit-github
+
+curl -O https://raw.githubusercontent.com/stanfordjournalism/stanford-dj-vm/master/configure_system.py
+
+python configure_system.py
+```
+
+Complete the configuration steps mentioned at the end of the `python configure_system.py` script.
+
+[DataKit]: https://datakit.ap.org/
