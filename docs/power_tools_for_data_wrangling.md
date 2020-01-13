@@ -184,6 +184,8 @@ invoke code.save
 invoke code.push
 ```
 
+Congratulations, you're work should now be saved in a private repo on GitHub!!
+
 ## The virtues of automation
 
 The use of command line tools (and code in general) has a number of virtues. It allow us to **automate** often time-consuming workflows and create **reproducible data pipelines.** This lets us more easily update projects in the future and serves as a form of "self-documentation" on our process.
