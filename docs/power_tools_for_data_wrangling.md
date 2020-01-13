@@ -155,14 +155,37 @@ Follow the steps in [Tech Setup - DataKit](docs/tech_setup.md#datakit). *Note, y
 # Create a group exercise using datakit
 # When prompted, choose "Exercise" and "csvkit"
 datakit project create --template gh:stanfordjournalism/cookiecutter-stanford-progj
+
 ```
 
-### Daily use
-
-After creating the first project (see above), you can use DataKit on subsequent assignments by simply running:
+> After creating the first project (see above), you can use DataKit on subsequent assignments by simply running:
 
 ```
 datakit project create
+```
+
+You can view the generated GitHub repo at the URL mentioned in the shell output.
+
+Next, test drive the installation of Python dependencies and saving your work.
+
+```
+# Navigate to the newly created project folder
+cd comm-177p-exercise-csvkit/
+
+# Install Python dependencies
+pipenv install
+
+# Move your csvkit code to the new project
+cp /path/to/csvkit_wrangle.sh scripts/csvkit_wrangle.sh
+
+# Activate a sandboxed environment for this project
+pipenv shell
+
+# Save your work locally
+invoke code.save
+
+# Push work to GitHub
+invoke code.push
 ```
 
 ## The virtues of automation
