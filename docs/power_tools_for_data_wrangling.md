@@ -12,7 +12,7 @@ We'll also mention a few other data wrangling power tools that can help streamli
 
 Acquiring data is typically the first step in a project. 
 
-The Unix [curl][] and [wget][] commands provide a variety of features for obtaining remote files. They're handy for one-off experimentation or as part of a re-usable shell script that can be run on at pre-scheduled times.
+The Unix [curl][] and [wget][] commands provide a variety of features for obtaining remote files. They're handy for one-off experimentation or as part of a re-usable shell script that can be run at pre-scheduled times.
 
 Let's start getting a feel for these commands. Open a shell and run the below:
 
@@ -26,10 +26,11 @@ curl journalism.stanford.edu
 # Download the home page and redirect the content to a local file
 curl journalism.stanford.edu > sj_home.html
 
+# Use wget to download the file
 wget journalism.stanford.edu
 ```
 
-A few questions to consider:
+Based on the above, spend a few minutes answering these questions:
 
 * How do `curl` and `wget` differ based on these initial examples?
 * Does `wget` print the file contents to the shell? 
