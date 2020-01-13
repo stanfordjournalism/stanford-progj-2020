@@ -111,13 +111,13 @@ sh csvkit_wrangle.sh
 
 ## Datasette and friends
 
-[Datasette][] is a project created by Simon Willison, one of the founders of Django, that help journalists explore and publish data. 
+[Datasette][] is a project created by Django co-founder Simon Willison that helps journalists explore and publish data.
 
 Per the official docs:
 
 > It helps people take data of any shape or size and publish that as an interactive, explorable website and accompanying API.
 
-What's more, it's [growing ecosystem][] of tools greatly streamline the process of converting and importing data from sundry formats into SQLite databases.
+What's more, its [growing ecosystem][] of tools streamlines the process of converting and importing data from sundry formats into SQLite databases.
 
 [socrata2sql][] is among the tools in the datasette universe. It's incredibly useful for quickly obtaining data from government agencies that use the Socrata data publishing platform (e.g. [San Francisco][] and [California state][]).
 
