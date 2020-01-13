@@ -188,7 +188,7 @@ Congratulations, you're work should now be saved in a private repo on GitHub!!
 
 ## The virtues of automation
 
-The use of command line tools (and code in general) has a number of virtues. It allow us to **automate** often time-consuming workflows and create **reproducible data pipelines.** This lets us more easily update projects in the future and serves as a form of "self-documentation" on our process.
+The use of command line tools (and code in general) has a number of virtues. It allows us to **automate** often time-consuming workflows and create **reproducible data pipelines.** This lets us more easily update projects in the future and serves as a form of "self-documentation" on our process.
 
 Workflows captured in code enable us to **share our work** with teammates -- a boon for inmproving accuracy and mindshare on projects.
 
