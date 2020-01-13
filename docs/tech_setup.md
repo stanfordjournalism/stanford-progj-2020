@@ -108,7 +108,6 @@ Follow [these steps][] but skip the installation of Homebrew, which should have 
 [these steps]: https://docs.python-guide.org/starting/install3/osx/#install3-osx
 
 
-
 [Atom]: https://atom.io/
 [Homebrew]: https://brew.sh/
 [git]: https://git-scm.com/

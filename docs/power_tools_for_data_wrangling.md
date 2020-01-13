@@ -107,7 +107,7 @@ sh csvkit_wrangle.sh
 [city\_budgets\_2019.xlsx]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/city_budgets_2019.xlsx
 [city\_budgets\_2020.xlsx]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/city_budgets_2020.xlsx
 [city\_pops.xlsx]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/city_pops.xlsx
-[shell script]: https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/code/city_budget_pops.sh
+[shell script]: https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/code/csvkit_wrangle.sh
 
 ## Datasette and friends
 
