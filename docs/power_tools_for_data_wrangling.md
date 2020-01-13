@@ -36,7 +36,7 @@ Based on the above, spend a few minutes answering these questions:
 * Does `wget` print the file contents to the shell? 
 * Where does it save the file contents? 
 * What happens if you run `wget` again? On your shell, type `man wget` and scroll through it's options to see if there's a way to force the command to overwrite pre-existing files.
-* Is there an option for `curl` that downloads a file directly to an identically named file locally (rather than printing the contents to the shell)? Explore `man curl` to see if you can find it. What is the name of the file `curl` downloads (using the option mentioned in question above)?
+* Is there an option for `curl` that downloads a file directly to an identically named file locally (rather than printing the contents to the shell)? Explore `man curl` to see if you can find it. What is the name of the file `curl` downloads when using the aforementioned option?
 
 At first blush, `curl` and `wget` appear to do the same job. But they also have unique strengths. In addition to fetching individual files, `curl` is especially useful for interacting with APIs. This can be helpful when first experimenting with the features of a new API as part of a larger project (where the ultimate goal may be to encode the data acquisition in a programming language such as Python).
 
@@ -46,11 +46,11 @@ Check out the Unix Shell tutorial for a more [thorough comparison](https://carpe
 
 ## Data wrangling
 
-Data wrangling is a catch-all term for a variety of tasks common to news projects (and data work in general). A few of the common tasks are:
+Data wrangling encompasses a variety of tasks common to news projects (and data work in general). A few of the common tasks are:
 
 * **Converting** data from one format to another.
 * **Leveling up** on the characteristics of a data set. Are the fields quantitative or qualitative? What is the distribution of the data in the fields? Min/max values? Are there missing values?
-* **Stacking data** spread across different files. This typically involves a "vertical" merge of data that is identical in structure, for example a data set that is split into yearly files. Merging the yearly files into a single larger file can make it easier to process and analyze using a database or programming languages. This is similar in concept to a SQL UNION query.
+* **Stacking data** spread across different files. This typically involves a "vertical" merge of CSVs that are identical in structure, for example a data set that is split into yearly files. Merging the yearly files into a single larger file can make it easier to process and analyze using a database or programming language. This is similar in concept to a SQL UNION query.
 * **Joining data** for analytical purposes. This typically involves a "horizontal" merge of secondary data sources that share common identifiers. For example, to determine the per capita budget expenditures for a list of cities, you could merge Census population estimates with a list of spending figures for cities using a FIPS code or the combination of city and state. This is similar in concept to a SQL JOIN.
 * **Subsetting columns** to reduce complexity and/or file size. Government data often has dozens of data columns. It can be much easier to work with the data by targeting only the fields important to your analysis. This is similar in concept to a SQL SELECT query.
 * **Filtering rows** is among the most common activities for a data project. This is similar in concept to a SQL WHERE clause.
@@ -70,7 +70,7 @@ Next, install csvkit and try using its tools to explore and wrangle the data: `p
 
 > Note, our end goal is to automate all these steps in a single shell script, so keep notes on the commands you run.
 
-Now we're ready to use csvkit. You're task will be to hunt down the commands appropriate to each step in the process below. 
+Now we're ready to use csvkit. Your task will be to hunt down the commands appropriate to each step in the process below. 
 
 As you identify the appropriate commands and begin experimenting on the command line, be sure to consult the more [detailed documentation][] for each command to get a sense of its features and options. Certain commands will require the use of options described in those detailed docs.
 
@@ -80,8 +80,8 @@ Ok, on to some wrangling!
   * [city\_budgets\_2019.xlsx][]
   * [city\_budgets\_2020.xlsx][]
   * [city\_pops.xlsx][]
-* Convert all three Excel files into CSVs. All three files should be identically named, except they should have a `.csv` extension (e.g. `city_budgets_2020.csv`).
-* Explore the data using csvkit's tools for data introspection
+* Convert all three Excel files into CSVs. All three CSVs should have the same names as their source Excel files, except they should have a `.csv` extension (e.g. `city_budgets_2020.csv`).
+* Explore the data using csvkit's tools for data introspection. Take note of which tools you tried and what kind of information they gave you (better yet, save the output!).
 * Combine the two city budget files and save them in a single file called `city_budgets.csv`
 * Join the city population data to the merged budgets file and save it in a new file called `city_budget_pop.csv`
 * Filter the data to only keep cities in California. Save it in a new file called `city_budget_pop_ca.csv`
