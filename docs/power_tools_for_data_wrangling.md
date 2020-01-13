@@ -35,8 +35,8 @@ Based on the above, spend a few minutes answering these questions:
 * How do `curl` and `wget` differ based on these initial examples?
 * Does `wget` print the file contents to the shell? 
 * Where does it save the file contents? 
-* What happens if you run `wget` again? On your shell, type `man wget` and scroll through it's optiosn to see if there's to force the command to overwrite pre-existing files.
-* Is there an option for `curl` that downloads a file directly to an identically named file locally (rather than printing the contents to the shell)? Explore `man curl` to see if you can find it.
+* What happens if you run `wget` again? On your shell, type `man wget` and scroll through it's options to see if there's a way to force the command to overwrite pre-existing files.
+* Is there an option for `curl` that downloads a file directly to an identically named file locally (rather than printing the contents to the shell)? Explore `man curl` to see if you can find it. What is the name of the file `curl` downloads (using the option mentioned in question above)?
 
 At first blush, `curl` and `wget` appear to do the same job. But they also have unique strengths. In addition to fetching individual files, `curl` is especially useful for interacting with APIs. This can be helpful when first experimenting with the features of a new API as part of a larger project (where the ultimate goal may be to encode the data acquisition in a programming language such as Python).
 
