@@ -50,11 +50,17 @@ Data wrangling encompasses a variety of tasks common to news projects (and data 
 
 * **Converting** data from one format to another.
 * **Leveling up** on the characteristics of a data set. Are the fields quantitative or qualitative? What is the distribution of the data in the fields? Min/max values? Are there missing values?
-* **Stacking data** spread across different files. This typically involves a "vertical" merge of CSVs that are identical in structure, for example a data set that is split into yearly files. Merging the yearly files into a single larger file can make it easier to process and analyze using a database or programming language. This is similar in concept to a SQL UNION query.
-* **Joining data** for analytical purposes. This typically involves a "horizontal" merge of secondary data sources that share common identifiers. For example, to determine the per capita budget expenditures for a list of cities, you could merge Census population estimates with a list of spending figures for cities using a FIPS code or the combination of city and state. This is similar in concept to a SQL JOIN.
-* **Subsetting columns** to reduce complexity and/or file size. Government data often has dozens of data columns. It can be much easier to work with the data by targeting only the fields important to your analysis. This is similar in concept to a SQL SELECT query.
-* **Filtering rows** is among the most common activities for a data project. This is similar in concept to a SQL WHERE clause.
-* **Sorting data** is another common task. csvkit provides a command-line utility to easily sort data by column values for simple cases, and also allows you to write raw SQL against data for more complex scenarios. This is similar in concept to a SQL ORDER BY.
+* **Stacking data** spread across different files. This typically involves a "vertical" merge of CSVs that are identical in structure, for example a data set that is split into yearly files. Merging the yearly files into a single larger file can make it easier to process and analyze using a database or programming language. This is similar in concept to a [SQL UNION][] query.
+* **Joining data** for analytical purposes. This typically involves a "horizontal" merge of secondary data sources that share common identifiers. For example, to determine the per capita budget expenditures for a list of cities, you could merge Census population estimates with a list of spending figures for cities using a FIPS code or the combination of city and state. This is similar in concept to a [SQL JOIN][].
+* **Subsetting columns** to reduce complexity and/or file size. Government data often has dozens of data columns. It can be much easier to work with the data by targeting only the fields important to your analysis. This is similar in concept to a [SQL SELECT][] query.
+* **Filtering rows** is among the most common activities for a data project. This is similar in concept to a [SQL WHERE][] clause.
+* **Sorting data** is another common task. csvkit provides a command-line utility to easily sort data by column values for simple cases, and also allows you to write raw SQL against data for more complex scenarios. This is similar in concept to a [SQL ORDER BY][].
+
+[SQL UNION]: https://www.w3schools.com/SQL/sql_union.asp
+[SQL JOIN]: https://www.w3schools.com/SQL/sql_join.asp
+[SQL SELECT]: https://www.w3schools.com/SQL/sql_select.asp
+[SQL WHERE]: https://www.w3schools.com/SQL/sql_where.asp
+[SQL ORDER BY]: https://www.w3schools.com/SQL/sql_orderby.asp
 
 ## Wrangling with csvkit
 
@@ -133,6 +139,6 @@ What's more, its [growing ecosystem][] of tools streamlines the process of conve
 
 The use of command line tools (and code in general) has a number of virtues. It allows us to **automate** often time-consuming workflows and create **reproducible data pipelines.** This lets us more easily update projects in the future and serves as a form of "self-documentation" on our process.
 
-Workflows captured in code enable us to **share our work** with teammates -- a boon for inmproving accuracy and mindshare on projects.
+Workflows captured in code enable us to **share our work** with teammates -- a boon for improving accuracy and mindshare on projects.
 
 Further, encoding a data pipeline allows us to more easily share work with the public. Such **transparency** can help increase trust in the journalistic process and enable others to build on our work.
