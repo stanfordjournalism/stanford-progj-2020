@@ -6,6 +6,7 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 
 * [Syllabus][]
 * [Technical setup](docs/tech_setup.md) and [FAQ](docs/tech_faq.md) - recommended and required software (all free)
+* [Bookshelf](docs/bookshelf.md) - recommended books, tutorials, cheatsheets, etc.
 
 [Syllabus]: https://canvas.stanford.edu/courses/111874/assignments/syllabus
 
