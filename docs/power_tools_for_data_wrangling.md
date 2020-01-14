@@ -115,7 +115,7 @@ sh csvkit_wrangle.sh
 [city\_pops.xlsx]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/city_pops.xlsx
 [shell script]: https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/code/csvkit_wrangle.sh
 
-## Datasette and friends
+## Even more power tools
 
 [Datasette][] is a project created by Django co-founder Simon Willison that helps journalists explore and publish data.
 
@@ -127,12 +127,42 @@ What's more, its [growing ecosystem][] of tools streamlines the process of conve
 
 [socrata2sql][] is among the tools in the datasette universe. It's incredibly useful for quickly obtaining data from government agencies that use the Socrata data publishing platform (e.g. [San Francisco][] and [California state][]).
 
+Here's an example of how to download [eviction data for San Francisco][]:
+
+[eviction data for San Francisco]: https://data.sfgov.org/Housing-and-Buildings/Eviction-Notices/5cei-gny5
+
+> Note, you must first `pip install socrata2sql`
+
+```
+socrata2sql insert data.sfgov.org 5cei-gny5 
+```
+
+There are many other shell tools out there for data acquisition and wrangling. Here are a few others worth exploring:
+
+* [census-data-downloader][] helps download Census data in a human-friendly format
+* [nws-wwa][] helps with National Weather Service data
+* [twitter-to-sqlite][] lets you easily save Twitter data to SQLite
+* [python-us][] has a command-line tool that lets you easily query for US and states metadata (e.g. state abbreviations, FIPS codes, etc.)
+
+News organizations with a culture of sharing code are a good place to troll for other tools. Here are a few news org GitHub accounts that contain hidden gems:
+
+* [Associated Press](https://github.com/associatedpress)
+* [Buzzfeed News](https://github.com/buzzfeednews)
+* [LAT](https://github.com/datadesk)
+* [NYT](https://github.com/newsdev)
+* [ProPublica](https://github.com/propublica)
 
 [Datasette]: https://datasette.readthedocs.io/en/stable/index.html
 [growing ecosystem]: https://datasette.readthedocs.io/en/stable/ecosystem.html
 [socrata2sql]: https://datasette.readthedocs.io/en/stable/ecosystem.html#socrata2sql
 [San Francisco]: https://data.sfgov.org
 [California state]: https://data.ca.gov
+
+[twitter-to-sqlite]: https://github.com/dogsheep/twitter-to-sqlite
+[python-us]: https://github.com/unitedstates/python-us#cli
+[census-data-downloader]: https://github.com/datadesk/census-data-downloader
+[nws-wwa]: https://github.com/datadesk/nws-wwa
+
 
 
 ## The virtues of automation
