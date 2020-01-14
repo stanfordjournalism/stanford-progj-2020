@@ -4,7 +4,7 @@
 
 ### Step 1 - Get the Data ###
 
-# Use curl to download 3 data files.
+# Use curl or wget to download 3 data files.
 # Below, we created shell variables to store the URLs. The
 # variables can now be easily used in other commands.
 # Below is a basic example (note the dollar
@@ -29,7 +29,7 @@ echo "Combining the city budget CSVs"
 echo "Merging pop. data with city budgets"
 
 ### Step 5 - Filter the data for only CA cities ###
-echo "Filtering data with for CA cities"
+echo "Filtering data for CA cities"
 
 ### Step 6 - Drop the state fields ###
 echo "Dropping state fields from CA data"
@@ -37,5 +37,5 @@ echo "Dropping state fields from CA data"
 ### Step 7 - Sort the data using a csvkit utility built for sorting ###
 echo "Sorting the CA data by year and amount in desdencing order"
 
-### Step 8 - Sort the data using csvkit's utilithy for executing SQL on CSVs ###
+### Step 8 - Sort the data using csvkit's utility for executing SQL on CSVs ###
 echo "Sorting the CA data by year (lowest to highest) and by amount (highest to lowest)"
