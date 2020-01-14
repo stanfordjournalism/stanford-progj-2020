@@ -128,63 +128,6 @@ What's more, its [growing ecosystem][] of tools streamlines the process of conve
 [San Francisco]: https://data.sfgov.org
 [California state]: https://data.ca.gov
 
-## Automating workflow with DataKit
-
-In this course, we'll use [DataKit][], an open-source command-line tool, to automate various aspects of our classroom workflow. These include:
-
-* Creating a standard project structure for all code work
-* Using virtual environments for Python
-* Saving our work locally using version control (git)
-* Submitting our work on GitHub
-
-DataKit is designed to help simplify all of the above and more. 
-
-The Associated Press created this tool to streamline routine tasks, facilitate collaboration, and more easily publish data projects. We've customized the tool to optimize it for use in class.
-
-See [here](https://github.com/stanfordjournalism/cookiecutter-stanford-progj) for more details on how it will be used in class.
-
-[DataKit]: https://datakit.ap.org/
-
-### Install
-
-Follow the steps in [Tech Setup - DataKit](tech_setup.md). *Note, you must first work through the preceding steps in the Technical Setup.*
-
-### Kick the tires
-
-```
-# Create a group exercise using datakit
-# When prompted, choose "Exercise" and "csvkit"
-datakit project create --template gh:stanfordjournalism/cookiecutter-stanford-progj
-
-```
-
-> After creating the first project (see above), you can use DataKit on subsequent assignments by simply running: `datakit project create`
-
-After running the above, pay careful attention to the shell output. It should provide the URL for the auto-generated GitHub repo.
-
-Next, install Python dependencies for the project and test the process of saving work.
-
-```
-# Navigate to the newly created project folder
-cd comm-177p-exercise-csvkit/
-
-# Install Python dependencies
-pipenv install
-
-# Move your csvkit code to the new project
-cp /path/to/csvkit_wrangle.sh scripts/csvkit_wrangle.sh
-
-# Activate a sandboxed environment for this project
-pipenv shell
-
-# Save your work locally
-invoke code.save
-
-# Push work to GitHub
-invoke code.push
-```
-
-Congratulations, you're work should now be saved in a private repo on GitHub!!
 
 ## The virtues of automation
 

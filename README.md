@@ -37,5 +37,9 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 #### Day 3 - Power Tools for Data Wrangling
 
 * [Power Tools for Data Wrangling](docs/power_tools_for_data_wrangling.md)
-* DataKit overview and [install](docs/tech_setup.md#datakit)
+
+#### Day 4 - Power Tools cont.'d and Intro to DataKit
+
+* Wrap up csvkit exercise from [Power Tools for Data Wrangling](docs/power_tools_for_data_wrangling.md)
+* [Automating workflows](docs/automating_worfklows.md) and [DataKit install](docs/tech_setup.md#datakit)
 
