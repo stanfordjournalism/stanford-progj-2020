@@ -11,7 +11,7 @@ This course requires a number of free services and tools available on Unix/Mac s
 
 ## Windows
 
-Windows users will need to gain access to a graphical Linux system.
+Windows users will need to gain access to a Linux system.  Beginners are strongly urged to use a Desktop version of Linux that includes a graphical interface.
 
 There are two officially supported options on this front. 
 
