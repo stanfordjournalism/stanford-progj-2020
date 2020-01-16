@@ -11,12 +11,24 @@ This course requires a number of free services and tools available on Unix/Mac s
 
 ## Windows
 
-Windows users will need to gain access to a Linux system.
+Windows users will need to gain access to a graphical Linux system.
 
-There are two officially supported options on this front. Below are the optios listed in order of increasing complexity:
+There are two officially supported options on this front. 
 
-* Use VirtualBox and an [Xubuntu virtual machine](https://github.com/stanfordjournalism/stanford-dj-vm#download-and-install) we've customized for this course. With this option, you can skip most of the additional installation steps below.
-* Use VirtualBox and bootstrap your own Ubuntu virtual machine. You should download the latest "LTS" desktop version (18.04 as of this writing) from the [Ubuntu downloads page][] and then [install VirtualBox and Ubuntu Linux][]. Then perform the installations below *inside the Ubuntu virtual machine*.
+Both require you to first [install VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+
+Once VirtualBox is installed, below are the options listed in order of increasing complexity:
+
+* Use VirtualBox with an [Xubuntu virtual machine](https://github.com/stanfordjournalism/stanford-dj-vm#download-and-install) we've customized for this course. With this option, you can skip most of the additional installation steps below.
+* Use VirtualBox to build your own Ubuntu virtual machine from scratch. You should download the latest "LTS" desktop version (18.04 as of this writing) from the [Ubuntu downloads page][] and follow the [install VirtualBox and Ubuntu Linux][] instructions. Then perform the installations below *inside the Ubuntu virtual machine*.
+
+There are also more advanced options such as:
+
+* Using a dual-boot setup
+* Running Linux from a USB stick
+* Using a "headless" version of Linux (i.e. one without a graphical interface) by [installing Windows subystem for Linux on Windows 10](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10)
+
+These latter options not officially supported by course instructors at this time and are intended for more advanced users. Please consult with the instructor if you have questions about these options.
 
 [Ubuntu downloads page]: https://ubuntu.com/download/desktop
 [install VirtualBox and Ubuntu Linux]: https://brb.nci.nih.gov/seqtools/installUbuntu.html
