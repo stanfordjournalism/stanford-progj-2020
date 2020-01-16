@@ -41,6 +41,7 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 
 #### Day 4 - Power Tools cont.'d and Intro to DataKit
 
+* [Bash drill](exercises/bash_dril.md)
 * Wrap up csvkit exercise from [Power Tools for Data Wrangling](docs/power_tools_for_data_wrangling.md)
 * [Automating workflows](docs/automating_workflows.md) and [DataKit install](docs/tech_setup.md#datakit)
 * **[Assignment 1](assignments/1.md)** - Python ramp-up and Failed Banks shell script (**Due: Wed. Jan. 22nd**)
@@ -54,6 +55,7 @@ No class.
 #### Day 6 - Failed Banks and Python
 
 * Review [Assignment 1](assignments/1.md) solutions
-* Python intro
+* Continue overview of DataKit workflow and related concepts/tech
+* Python intro and exercises
 
 
