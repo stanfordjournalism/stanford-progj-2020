@@ -28,7 +28,7 @@ There are also more advanced options such as:
 * Running Linux from a USB stick
 * Using a "headless" version of Linux (i.e. one without a graphical interface) by [installing Windows subystem for Linux on Windows 10](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10)
 
-These latter options not officially supported by course instructors at this time and are intended for more advanced users. Please consult with the instructor if you have questions about these options.
+These latter options are not officially supported by course instructors at this time and are intended for more advanced users. Please consult with the instructor if you have questions about these options.
 
 [Ubuntu downloads page]: https://ubuntu.com/download/desktop
 [install VirtualBox and Ubuntu Linux]: https://brb.nci.nih.gov/seqtools/installUbuntu.html
