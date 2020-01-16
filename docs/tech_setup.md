@@ -11,13 +11,15 @@ This course requires a number of free services and tools available on Unix/Mac s
 
 ## Windows
 
-Windows users should download the latest "LTS" desktop version from the [Ubuntu downloads page][] and then [install VirtualBox and Ubuntu Linux][].
+Windows users will need to gain access to a Linux system.
 
-Then perform the installations below *inside the Ubuntu virtual machine*.
+There are two officially supported options on this front. Below are the optios listed in order of increasing complexity:
+
+* Use VirtualBox and an [Xubuntu virtual machine](https://github.com/stanfordjournalism/stanford-dj-vm#download-and-install) we've customized for this course. With this option, you can skip most of the additional installation steps below.
+* Use VirtualBox and bootstrap your own Ubuntu virtual machine. You should download the latest "LTS" desktop version (18.04 as of this writing) from the [Ubuntu downloads page][] and then [install VirtualBox and Ubuntu Linux][]. Then perform the installations below *inside the Ubuntu virtual machine*.
 
 [Ubuntu downloads page]: https://ubuntu.com/download/desktop
 [install VirtualBox and Ubuntu Linux]: https://brb.nci.nih.gov/seqtools/installUbuntu.html
-
 
 
 ## Text Editor
