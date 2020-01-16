@@ -34,7 +34,7 @@ Use the Finder menu to navigate to your Home directory using `Go -> Home`.
 
 ![Finder go to home](../static/finder_go_home.png)
 
-You show now see your home directory, which contains a number of hidden files and directories starting with a `.`. For this example, let's assume we want to edit a hidden configuration file for DataKit.
+You should now see your home directory, which contains a number of hidden files and directories starting with a `.`. For this example, let's assume we want to edit a hidden configuration file for DataKit.
 
 Navigate to the `~/.datakit/plugins/datakit-github` folder.
 
