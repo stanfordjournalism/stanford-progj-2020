@@ -17,3 +17,33 @@ Running `xcode-select --install` appears to fix the problem.
 ### Which Ubuntu should I use? 
 
 Typically, you'll want the latest "LTS" release from the [Ubuntu download page](https://ubuntu.com/download/desktop).
+
+### How do I edit hidden files on a Mac?
+
+Mac and Linux systems contain hidden files and directories that typically contain configuratons for various programs on the system. An example is `~/.bashrc`, which contains configurations for the bash shell.
+
+These files can be opened and edited with a standard code editor such as Visual Studio Code or Atom. 
+
+> For this example, we assume you have Visual Studio Code installed.
+
+In order to edit such files, you should open a Finder window.
+
+Hit `command` + `shift` + `.` to make invisible files and folders appear in the Finder.
+
+Use the Finder menu to navigate to your Home directory using `Go -> Home`.
+
+![Finder go to home](../static/finder_go_home.png)
+
+You show now see your home directory, which contains a number of hidden files and directories starting with a `.`. For this example, let's assume we want to edit a hidden configuration file for DataKit.
+
+Navigate to the `~/.datakit/plugins/datakit-github` folder.
+
+Right-click on `config.json`.
+
+You should get a pop-up menu with options for opening the file using different programs.
+
+Choose `Open With` and select a code editor such as Visual Studio Code or Atom to open and edit the file.
+
+![Open datakit github config with VS Code](../static/finder_edit_dkit_github_config.png)
+
+If you wish to once again hide these `.`-prefixed files and directories, hit `command` + `shift` + `.` once again in the Finder window.
