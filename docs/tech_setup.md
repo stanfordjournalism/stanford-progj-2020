@@ -128,6 +128,33 @@ Follow [these steps][] but skip the installation of Homebrew, which should have 
 [StanfordJournalism]: https://stanford-r8xo.slack.com/home
 [VSCode]: https://code.visualstudio.com/
 
+### Linux
+
+Use [pyenv](https://github.com/pyenv/pyenv), a tool that allows you to install and manage multiple versions of Python.
+
+> Below steps are customized for Ubuntu Linux. See the [pyenv docs](https://github.com/pyenv/pyenv#basic-github-checkout) for details on customizing for other distributions (or for Mac)
+
+```
+# Clone pyenv
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
+# Add pyenv vars to bash config
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+
+# Reinitialize shell
+exec "$SHELL"
+
+# Install build dependencies
+sudo apt-get update
+sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+# Install python version 3.7.6
+pyenv install 3.7.6
+pyenv global 3.7.6
+```
+
 
 ## DataKit
 
