@@ -24,6 +24,7 @@ Once VirtualBox is installed, below are the options listed in order of increasin
 
 There are also more advanced options such as:
 
+* [VSCode with a Windows Linux Subsystem](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 * Using a dual-boot setup
 * Running Linux from a USB stick
 * Using a "headless" version of Linux (i.e. one without a graphical interface) by [installing Windows subystem for Linux on Windows 10](https://www.windowscentral.com/install-windows-subsystem-linux-windows-10)
