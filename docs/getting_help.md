@@ -5,15 +5,18 @@ On your quest to become a ninja programmer, there will be many hurdles. As your 
 ![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/naruto_sage_mode.jpg)
 
 ## It Will Break
-As you may have already learned from getting your virtual environments set up and surviving the python installation process, things will go wrong. Enter your code space expecting the bugs to show up before any usable solution and you will save yourself hours of frustration when your code does not work the first, second, or third time around. 
+As you may have already learned from your virtual environment set up and surviving the python installation process, things will go wrong. Come in to your code space expecting the bugs to show up. They will show up before any usable solution does. This will help you save hours of frustration when your code does not work the first, second, or third time around. 
 
 ![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/sensei_image.jpg)
 
 
 ## Ask GOOD Questions:
+
+When asking for help with your code, saying 'my code is not working' is an unclear problem. Framing the issue as such makes it tricky to address the problem effectively. Use the GOOD Questions model so that all parties have clarity on what they are tackling.
+
 * **G:** Give context to your issue - clearly describe the problem.
 * **O:** Outline the steps you've taken to solve it.
-* **O:** Offer your best guess about what the bug is. This will help you think through it and the person assisting you.
+* **O:** Offer your best guess about what the bug is. This will help you think through the problem. It will also make the process easier for the person assisting you.
 * **D:** Demo what is happening. Keep track of the error messages you've gotten, plus the code implemented to create the error, as well as any steps you may have taken to fix it.
 
 To learn more about asking GOOD questions, check out [Real Python.](https://realpython.com/lessons/ask-good-questions/)
@@ -30,11 +33,11 @@ But, if you still need help, you can try these resources:
 
 ### Semi-Live
 
-* **r/learnpython** this [subreddit](https://www.reddit.com/r/learnpython/) can be great for crowd-sourcing solutions to your coding issues. Some programmers prefer to use StackOverflow, but I find that the python subreddits are a bit friendlier for new coders. StackOverflow can have coding solutions that are difficult to understand for new programmers, and thus can leave you confused about how to adjust the code to fit your unique problem.
+* **r/learnpython** this [subreddit](https://www.reddit.com/r/learnpython/) can be great for crowd-sourcing solutions to your coding issues. Some programmers prefer to use StackOverflow, but python subreddits are a bit friendlier for new coders. StackOverflow can have coding solutions that are difficult to understand for new programmers, and thus can leave you confused about how to adjust the code to fit your unique problem.
 
 * **Python Tutor** this [website](http://pythontutor.com/visualize.html#mode=edit) can be a great place to find live help if you are stuck on a particular bug. Beware: Like you, there will be several other new coders that need help. Thus, this website tends to have long wait periods - not ideal for being on deadline. 
 
-* **Python Discord Chat** this [Discord Chat](https://discordapp.com/invite/python) can be awesome for getting help from new and experienced programmers alike. People will definitely want to help, but they are hesitant to do so if it seems like you have not taken any steps to fix the bugs yourself. Do your due diligence before asking for help on this chat or any of the other resources.
+* **Python Discord Chat** this [Discord Chat](https://discordapp.com/invite/python) can be awesome for getting help from new and experienced programmers alike. People will definitely want to help, but they are hesitant to do so if it seems like you have not taken any steps to fix the bugs yourself. Do your due diligence before asking for help on this chat, or any of the other resources.
 
 ### YouTube
 
