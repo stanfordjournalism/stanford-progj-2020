@@ -11,7 +11,7 @@ O: Outline the steps you've taken to solve it.
 O: Offer your best guess about what the bug is. This will help you think through it and the person assisting you.
 D: Demo what is happening. Keep track of the error messages you've gotten, plus the code implemented to create the error, as well as any steps you may have taken to fix it.
 
-To learn more about asking GOOD questions, check out [Real Python]: (https://realpython.com/lessons/ask-good-questions/)
+To learn more about asking GOOD questions, check out [Real Python](https://realpython.com/lessons/ask-good-questions/)
 
 
 ##
