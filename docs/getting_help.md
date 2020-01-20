@@ -2,12 +2,9 @@
 
 On your quest to become a ninja programmer, there will be many hurdles. As your programming senseis, we are still walking down this path and want to share a few things we have learned along the way.
 
-![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/naruto_sage_mode.jpg)
 
-## It Will Break
-As you may have already learned from your virtual environment set up and surviving the python installation process, things will go wrong. Come in to your code space expecting the bugs to show up. They will show up before any usable solution does. This will help you save hours of frustration when your code does not work the first, second, or third time around. 
-
-![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/sensei_image.jpg)
+## Your Code Will Break
+As you may have already learned from your virtual environment set up and surviving the python installation process, things will go wrong. Come in to your code space expecting the bugs to show up. The bugs will show up before any usable solution does. This mindset will help you save hours of frustration when your code does not work the first, second, or third time around. 
 
 
 ## Ask GOOD Questions:
@@ -24,14 +21,14 @@ To learn more about asking GOOD questions, check out [Real Python.](https://real
 
 ## Resources
 
-Serdar and I are both on slack - reach out to us. But, you may not get a response right away. Keep working on fixing your issue. In many cases, you may find that you've already worked it out by speaking through it with a friend or by obliterating your keyboard with the rasengan.
-
-![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/rasengan_greaterthan_keyboard.jpg)
+Serdar and I are both on slack - reach out to us. But, you may not get a response right away. Keep working on fixing your issue. In many cases, you may find that you've already worked it out by speaking through it with a friend or by karate chopping your keyboard.
 
 But, if you still need help, you can try these resources:
 
 
 ### Semi-Live
+
+* **News Nerdery** this [Slack Workspace](https://newsnerdery.org/) will connect you to other working journalists who either can give you insight on your code or direct you to resources that can help you. Before accessing the slack, you need to request an invite to the slack, then you'll have access to channels such as `#python` and `#helpme`.
 
 * **r/learnpython** this [subreddit](https://www.reddit.com/r/learnpython/) can be great for crowd-sourcing solutions to your coding issues. Some programmers prefer to use StackOverflow, but python subreddits are a bit friendlier for new coders. StackOverflow can have coding solutions that are difficult to understand for new programmers, and thus can leave you confused about how to adjust the code to fit your unique problem.
 
@@ -47,8 +44,6 @@ But, if you still need help, you can try these resources:
 ## A Note:
 
 The resources listed above can be helpful, but they can hinder your learning if you jump to them before struggling with the problem yourself. At the end of the day, nothing will help you learn faster than fighting with bugs and thinking through how you would fix them first.
-
-![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/Coding-Ninja%20101.jpg)
 
 By the end of this class, you will be a coding ninja - opening csv files programmatically, sorting, filtering, pinging APIs and telling stories with your data. 
 
