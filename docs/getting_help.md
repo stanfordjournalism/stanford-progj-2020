@@ -43,7 +43,11 @@ But, if you still need help, you can try these resources:
 
 ## A Note:
 
-The resources listed above can be helpful, but they can hinder your learning if you jump to them before struggling with the problem yourself. At the end of the day, nothing will help you learn faster than fighting with bugs and thinking through how you would fix them first. 
+The resources listed above can be helpful, but they can hinder your learning if you jump to them before struggling with the problem yourself. At the end of the day, nothing will help you learn faster than fighting with bugs and thinking through how you would fix them first.
+
+![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/Coding-Ninja%20101.jpg)
+
+By the end of this class, you will be a coding ninja - opening csv files programmatically, sorting, filtering, pinging APIs and telling stories with your data. 
 
 
 
