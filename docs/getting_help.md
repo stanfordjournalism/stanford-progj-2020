@@ -11,17 +11,19 @@ As you may have already learned from getting your virtual environments set up an
 
 
 ## Ask GOOD Questions:
-G: Give context to your issue - clearly describe the problem.
-O: Outline the steps you've taken to solve it.
-O: Offer your best guess about what the bug is. This will help you think through it and the person assisting you.
-D: Demo what is happening. Keep track of the error messages you've gotten, plus the code implemented to create the error, as well as any steps you may have taken to fix it.
+* **G:** Give context to your issue - clearly describe the problem.
+* **O:** Outline the steps you've taken to solve it.
+* **O:** Offer your best guess about what the bug is. This will help you think through it and the person assisting you.
+* **D:** Demo what is happening. Keep track of the error messages you've gotten, plus the code implemented to create the error, as well as any steps you may have taken to fix it.
 
 To learn more about asking GOOD questions, check out [Real Python.](https://realpython.com/lessons/ask-good-questions/)
 
 
 ## Resources
 
-Serdar and I are both on slack - reach out to us. But, you may not get a response right away. Keep working on fixing your issue. In many cases, you may find that you've already worked it out by speaking through it with a friend or by karate chopping your keyboard. 
+Serdar and I are both on slack - reach out to us. But, you may not get a response right away. Keep working on fixing your issue. In many cases, you may find that you've already worked it out by speaking through it with a friend or by obliterating your keyboard with the rasengan.
+
+![](https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/images/rasengan_greaterthan_keyboard.jpg)
 
 But, if you still need help, you can try these resources:
 
