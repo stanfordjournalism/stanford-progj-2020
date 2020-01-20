@@ -2,7 +2,7 @@
 
 On your quest to become a ninja programmer, there will be many hurdles. As your programming senseis, we are still walking down this path and want to share a few things we have learned along the way.
 
-![](images/sensei_image.jpg)
+<img src='images/sensei_image.jpg' width="100" height="100">
 
 ## It Will Break
 As you may have already learned from getting your virtual environments set up and surviving the python installation process, things will go wrong. Enter your code space expecting the bugs to show up before any usable solution and you will save yourself hours of frustration when your code does not work the first, second, or third time around. 
