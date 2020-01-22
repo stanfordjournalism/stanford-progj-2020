@@ -23,15 +23,15 @@ Follow the steps in [Tech Setup - DataKit](tech_setup.md#datakit). *Note, you mu
 
 ## Preview
 
-When you run DataKit on the command line, it will ask you a series of questions that help configure the new project. The questions will often have default values show in square brackets `[]`. 
+When you run DataKit on the command line, it will ask you a series of questions that help configure the new project. The questions will often have default values shown in square brackets `[]`. 
 
 You can simply hit `return` to accept the defaults, or type in an answer as necessary. Below is a **truncated** example session showing the initial questions and default values.
 
-You should be able to see that we entered `1` for the project number and `FDIC Failed Banks shell script` for the project short description. Otherwise, we accepted the default values.
+You can see below that we entered "1" for the project number and "FDIC Failed Banks shell script" for the project short description. Otherwise, we accepted the default values.
 
 ![datakit default values](../static/datakit_default_values.png)
 
-After the initial configuration above, you will also be prompted to decide a few other things, such as whether to make the repo private or public (we'll generally make our repos private, although you have the option to later make them public to the world).
+After the initial configuration above, you'll be prompted to decide a few other things, such as whether to make the project private or public on GitHub (we'll generally make our projects private, although you have the option to later make them public).
 
 Once the script finishes running, you should see output on the shell such as below
 
@@ -40,17 +40,17 @@ Once the script finishes running, you should see output on the shell such as bel
 Some important bits to note:
 
 * A new git repository has been created on your local machine: `comm-177p-exercise-csvkit-test/`
-* A corresponding GitHub project has been created at: [https://github.com/zstumgoren/comm-177p-exercise-csvkit-test](https://github.com/zstumgoren/comm-177p-exercise-csvkit-test). This project is linked to the newly created *local* repository.
+* A corresponding GitHub project has been created, in this example, at `https://github.com/zstumgoren/comm-177p-exercise-csvkit-test`). This GitHub project is linked to the newly created *local* repository, so that you can easily push local changes back to GitHub.
 
 If you look inside the new local repo, you should see that a bunch of initial project files and directories have been created for you.
 
 ![datakit project tree](../static/datakit_project_tree.png)
 
-If you visit the GitHub URL mentioned above, you would also see that these files have been pushed to and saved on GitHub as well.
+If you visit the GitHub project, you would see that these files have been saved to GitHub as well.
 
 ![datakit github files](../static/datakit_github_project_files.png)
 
-Finally, the project also includes a `README.md` that contains reminders on the daily workflow once you've created the project.
+Finally, the project includes a `README.md` that contains reminders on daily workflow (discussed in more detail below).
 
 You should now have a high-level sense of what DataKit does. In the next section, we'll use DataKit to create our first project.
 
