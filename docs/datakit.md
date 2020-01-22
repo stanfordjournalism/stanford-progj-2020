@@ -93,6 +93,10 @@ invoke code.save
 
 # Push work to GitHub
 invoke code.push
+
+# When you're done working,
+# deactivate the virtual environment
+exit
 ```
 
 Congratulations, your work should now be saved in a private repo on GitHub!!
@@ -121,4 +125,8 @@ invoke code.save
 
 # Push work to GitHub
 invoke code.push
+
+# When you're done working,
+# deactivate the virtual environment
+exit
 ```
