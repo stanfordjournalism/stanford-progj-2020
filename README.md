@@ -8,6 +8,7 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 * [Technical setup](docs/tech_setup.md) and [FAQ](docs/tech_faq.md) - recommended and required software (all free)
 * [Code solutions](https://github.com/zstumgoren/stanford-progj-2020-solutions) - A private repo containing solutions to class exercises.
 * [Bookshelf](docs/bookshelf.md) - recommended books, tutorials, cheatsheets, etc.
+* [Datakit](docs/datakit.md) - overview and details on install and usage
 
 [Syllabus]: https://canvas.stanford.edu/courses/111874/assignments/syllabus
 
@@ -44,7 +45,7 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 
 * [Bash drill](exercises/bash_dril.md)
 * Wrap up csvkit exercise from [Power Tools for Data Wrangling](docs/power_tools_for_data_wrangling.md)
-* [Automating workflows](docs/automating_workflows.md) and [DataKit install](docs/tech_setup.md#datakit)
+* [Automating workflows](docs/automating_workflows.md) and [DataKit install](docs/datakit.md)
 * **[Assignment 1](assignments/1.md)** - Python ramp-up and Failed Banks shell script (**Due: Wed. Jan. 22nd**)
 
 ### Week 3
@@ -55,8 +56,8 @@ No class.
 
 #### Day 6 - Failed Banks and Python
 
-* Review [Assignment 1](assignments/1.md) solutions
-* Continue overview of DataKit workflow and related concepts/tech
+* [DataKit](docs/datakit.md) overview, install and submit [Assignment 1](assignments/1.md)
+* Review [Assignment 1](assignments/1.md) solutions, assuming everyone has submitted
 * Python intro and exercises
 
 
