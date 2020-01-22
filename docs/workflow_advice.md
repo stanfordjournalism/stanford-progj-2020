@@ -56,3 +56,27 @@ If you're trying to pinpoint certain commands, you can also filter the list retu
 history | grep csv
 ```
 
+## Python
+
+### Interactive shell
+
+Python ships with an interactive interpreter that you can fire up from any shell terminal by simply typing `python`. This interactive environment allows you to test out Python code in a live environment. It's incredibly useful for experimenting with code prior to moving into a longer script (similar to the workflow described above for tinkering on the shell).
+
+For this course, however, we recommend installing [ipython](https://ipython.readthedocs.io/en/stable/), a more user-friendly and feature-rich version of the Python interactive interpreter.
+
+```
+pip install ipython
+```
+
+Now fire it up.
+
+```
+ipython
+```
+
+Once you're done working, exit the Python interpreter and return to the regular bash shell:
+
+```
+# Either type `CTRL + d` or
+exit()
+```
