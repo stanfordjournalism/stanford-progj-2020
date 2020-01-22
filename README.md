@@ -10,6 +10,7 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 * [Bookshelf](docs/bookshelf.md) - recommended books, tutorials, cheatsheets, etc.
 * [Datakit](docs/datakit.md) - overview and details on install and usage
 * [Getting Help](docs/getting_help.md) - Resources and strategies for finding help.
+* [Workflow advice](docs/workflow_advice.md) - working on the command line, etc.
 
 [Syllabus]: https://canvas.stanford.edu/courses/111874/assignments/syllabus
 
