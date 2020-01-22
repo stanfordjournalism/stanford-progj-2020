@@ -34,9 +34,9 @@ If you're ever confused about which directory you're in on the command line, typ
 
 ### Tinker in shell, copy to code editor
 
-If you're working on a shell script that requires multiple commands (e.g. creating a script that downloads and processes data), a common workflow is to start by experimenting with the commands directly in the shell.
+If you're working on a [shell script](http://swcarpentry.github.io/shell-novice/06-script/index.html) that requires multiple commands (e.g. creating a script that downloads and processes data), a common workflow is to start by experimenting with the commands directly in the shell.
 
-Once you're confident that a command is working expected, copy and paste the command over to the actual script.
+Once you're confident that a command is working as expected, copy and paste the command over to the script.
 
 Remember, you should be using a proper code editor such as Visual Studio Code to create and edit shell scripts.
 
