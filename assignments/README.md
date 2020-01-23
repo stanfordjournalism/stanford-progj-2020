@@ -1,6 +1,6 @@
 # Assignments/Projects
 
-Below is a listing assignments and projects. Links to solution code will be posted once everyone has turned in the assignment.
+Below is a listing of assignments and projects. Links to code solutions will be posted once all students have turned in the assignment.
 
 Assignment|Description|Solution
 ----------|-----------|:-----:
