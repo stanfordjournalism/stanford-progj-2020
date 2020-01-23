@@ -58,7 +58,16 @@ No class.
 
 #### Day 6 - Failed Banks and Python
 
-* [DataKit](docs/datakit.md) overview, install and submit [Assignment 1](assignments/1.md)
+* [Workflow Advice](docs/workflow_advice.md) - In particular, working in the shell and with a code editor.
+* [Getting Help](docs/getting_help.md) - How to ask G.O.O.D. questions and other advice/resources on getting help when programming.
+* [DataKit](docs/datakit.md) overview, including details on virtual environments, the benefits of git/GitHub, and daily workflow with DataKit.
+* Submit [Assignment 1](assignments/1.md) using DataKit.
+* **[Assignment 2](assignments/2.md)** - DataKit reading and Python lists and dicts (**Due: Mon. Jan. 28nd @ 1:30pm**)
+
+### Week 4
+
+#### Day 7 - Python intro
+
 * Review [Assignment 1](assignments/1.md) solutions, assuming everyone has submitted
 * Python intro and exercises
 
