@@ -1,16 +1,17 @@
 # Automating workflow with DataKit
 
-In this course we'll dip into the culture of [newsroom automation](automating_workflows.md) by using [DataKit][], an open-source command-line tool created by The Associated Press. DataKit was designed in a team environment to bring sanity to data projects. Among other things, it helps standardize project structures, easily share code and data with teammates, and even publish data as part of story packages.
+In this course we'll dip into the culture of [newsroom automation](automating_workflows.md) by using [DataKit][], an open-source command-line tool created by The Associated Press. DataKit was [designed in a team environment][] to bring sanity to data projects. Among other things, it helps standardize project structures, easily share code and data with teammates, and even publish data as part of story packages.
 
 [DataKit]: https://datakit.ap.org/
+[designed in a team environment]: https://www.rjionline.org/stories/ap-datakit-intro
 
 It also makes it easy to customize workflows to suit different teams and individuals. We've customized DataKit for use in the classroom.
 
 DataKit will help us streamline our workflow while applying best practices from the worlds of data science and software. Among other things, it will help us:
 
 * Create standard project structures for all code work
-* Use virtual environments for Python
-* Save code and data in version control (git)
+* Use [virtual environments](https://docs.python.org/3/tutorial/venv.html) for Python (using [pipenv](https://docs.python-guide.org/dev/virtualenvs/))
+* Save code and data in [version control](https://en.wikipedia.org/wiki/Version_control) ([git](https://git-scm.com/book/en/v2))
 * Publish our work to GitHub, making it easy to open-source if we choose
 * Easily share our work with instructors
 
