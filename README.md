@@ -5,6 +5,7 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 ## Important links
 
 * [Syllabus][]
+* [Assignments](assignments/README.md)
 * [Technical setup](docs/tech_setup.md) and [FAQ](docs/tech_faq.md) - recommended and required software (all free)
 * [Code solutions](https://github.com/zstumgoren/stanford-progj-2020-solutions) - A private repo containing solutions to class exercises.
 * [Bookshelf](docs/bookshelf.md) - recommended books, tutorials, cheatsheets, etc.
