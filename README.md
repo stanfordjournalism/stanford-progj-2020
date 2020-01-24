@@ -6,12 +6,13 @@ Sundry notes and code bits for Stanford's Programming in Journalism class (winte
 
 * [Syllabus][]
 * [Assignments](assignments/README.md)
-* [Technical setup](docs/tech_setup.md) and [FAQ](docs/tech_faq.md) - recommended and required software (all free)
-* [Code solutions](https://github.com/zstumgoren/stanford-progj-2020-solutions) - A private repo containing solutions to class exercises.
 * [Bookshelf](docs/bookshelf.md) - recommended books, tutorials, cheatsheets, etc.
-* [Glossary](docs/glossary.md) - technical terms used in class
+* [Code solutions](https://github.com/zstumgoren/stanford-progj-2020-solutions) - A private repo containing solutions to class exercises.
 * [Datakit](docs/datakit.md) - overview and details on install and usage
 * [Getting Help](docs/getting_help.md) - Resources and strategies for finding help.
+* [Glossary](docs/glossary.md) - technical terms used in class
+* [Python](docs/python/README.md) - overview, tutorials, etc.
+* [Technical setup](docs/tech_setup.md) and [FAQ](docs/tech_faq.md) - recommended and required software (all free)
 * [Workflow advice](docs/workflow_advice.md) - working on the command line, etc.
 
 [Syllabus]: https://canvas.stanford.edu/courses/111874/assignments/syllabus
