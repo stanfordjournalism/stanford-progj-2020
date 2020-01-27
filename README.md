@@ -75,5 +75,6 @@ No class.
 * Python intro and applying the basics
   * [Python overview and coding contexts](docs/python/overview.md)
   * The (i)Python interactive interpreter: `pip install ipython`
+  * [Embracing errors](docs/python/embracing_errors.md)
   * [Counting and filtering](docs/python/count_filter.md)
   * [Reading and writing text files](docs/python/file_io.md)
