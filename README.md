@@ -69,8 +69,11 @@ No class.
 
 ### Week 4
 
-#### Day 7 - Python intro
+#### Day 7 - Python intro and practical skills
 
 * Review [Assignment 1](assignments/1.md) solutions, assuming everyone has submitted
-* Python intro and exercises
-
+* Python intro and applying the basics
+  * [Python overview and coding contexts](docs/python/overview.md)
+  * The (i)Python interactive interpreter: `pip install ipython`
+  * [Counting and filtering](docs/python/count_filter.md)
+  * [Reading and writing text files](docs/python/file_io.md)
