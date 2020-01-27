@@ -65,16 +65,18 @@ No class.
 * [Getting Help](docs/getting_help.md) - How to ask G.O.O.D. questions and other advice/resources on getting help when programming.
 * [DataKit](docs/datakit.md) overview, including details on virtual environments, the benefits of git/GitHub, and daily workflow with DataKit.
 * Submit [Assignment 1](assignments/1.md) using DataKit.
-* **[Assignment 2](assignments/2.md)** - DataKit reading and Python lists and dicts (**Due: Mon. Jan. 28nd @ 1:30pm**)
+* **[Assignment 2](assignments/2.md)** - DataKit reading and Python lists and dicts (**Due: Mon. Jan. 27th @ 1:30pm**)
 
 ### Week 4
 
 #### Day 7 - Python intro and practical skills
 
-* Review [Assignment 1](assignments/1.md) solutions, assuming everyone has submitted
+
 * Python intro and applying the basics
   * [Python overview and coding contexts](docs/python/overview.md)
   * The (i)Python interactive interpreter: `pip install ipython`
   * [Embracing errors](docs/python/embracing_errors.md)
   * [Counting and filtering](docs/python/count_filter.md)
   * [Reading and writing text files](docs/python/file_io.md)
+  * **[Assignment 3](assignments/3.md)** - Python strings and Awesome Animals coding exercise (**Due: Wed. Jan. 29th @ 1:30pm**)
+  * Review [Assignment 1](assignments/1.md) solutions, assuming everyone has submitted and time allows
