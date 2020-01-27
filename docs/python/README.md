@@ -8,7 +8,6 @@ Below are the major topics we'll cover:
   * What is Python?
   * Coding contexts and workflow
 * Core Python features
-  * Understanding errors (aka Exceptions)
   * Basic data types (integers, strings, lists, dicts)
   * Expressions and statements
   * Variables as storage containers
@@ -20,8 +19,9 @@ Below are the major topics we'll cover:
   * Modules
   * Packages
 * Practical skills for getting things done
+  * [Embracing errors](embracing_errors.md)
   * [Counting and filtering](count_filter.md)
-  * Sorting
   * [Reading and writing text files](file_io.md), CSVs and JSON
+  * Sorting
   * Working with remote resources (web scraping and APIs)
   * Analyzing data with Jupyter notebooks
