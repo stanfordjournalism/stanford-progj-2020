@@ -1,15 +1,25 @@
 # Reading Files
 
+## Table of Contents
+
+- [Opening and closing files](#opening-and-closing-files)
+- [Reading a file](#reading-a-file)
+- [Read lines from file](#read-lines-from-file)
+- [Read lines efficiently](#read-lines-efficiently)
+- [Writing files](#writing-files)
+- [Further reading](#further-reading)
+
+## Overview
+
 Learning how to read and write files is an essential programming task.
 
-Below are some examples intended to demonstrate some basic techniques in an interactive Python shell session.
+Below are some examples intended to demonstrate some basic techniques in an interactive Python shell session. 
 
-> Examples below will use the [animals.csv][] and [animal_ratings.csv][] files in this repo.
+> Examples below will use the [animals.csv][] from this repo.
 
 To follow along, open an ipython terminal.
 
 [animals.csv]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/animals.csv
-[animal_ratings.csv]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/animal_ratings.csv
 
 ## Opening and closing files
 
@@ -54,7 +64,7 @@ print(text)
 
 This idiom can feel strange at first, but using it can help avoid memory leaks or other code problems.
 
-## Reading data
+## Reading a file
 
 The simplest way to read data from a file is the [read](https://www.w3schools.com/python/ref_file_read.asp) method on an open file [handle](https://en.wikipedia.org/wiki/Handle_(computing)). 
 
@@ -180,3 +190,10 @@ with open('animals_filtered.csv', 'w') as outfile:
 ```
 
 It's important to note that above, we actually created an extra bit of work for ourselves by stripping the newlines when we read the source data. When we wrote the filtered data to a new file, we were forced to add the newline to each row. If we had not, the data would have been jumbled into one line: `animaldogsnakenarwhal`.
+
+## Further reading
+
+For more info on reading and writing files, check out:
+
+* The W3C chapters on file handling, starting with [Python file handling](https://www.w3schools.com/python/python_file_handling.asp).
+* [Chapter 9 - Reading and Writing Files](https://automatetheboringstuff.com/2e/chapter9/) of *Automate the Boring Stuff*
