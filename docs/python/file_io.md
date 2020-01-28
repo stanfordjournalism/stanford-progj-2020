@@ -1,4 +1,4 @@
-# Reading Files
+# Reading and writing files
 
 ## Table of Contents
 
