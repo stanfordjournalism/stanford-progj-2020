@@ -1,5 +1,13 @@
 # Counting and filtering
 
+## Table of contents
+
+- [Counting](#counting)
+- [Filtering](#filtering)
+- [Count if](#count-if)
+
+## Overview
+
 In the course of our Python study, we've learned about some of the basic features of the Python programming language. That includes:
 
   * Basic data types (integers, strings, lists, dicts)
@@ -7,11 +15,10 @@ In the course of our Python study, we've learned about some of the basic feature
   * Variables as storage containers
   * Flow control ("for" loops and if/elif/else)
   * Built-in functions such as `len` and `print`
-  * Importing and using libraries
 
 Let's start tying together this knowledge and applying it in practical contexts.
 
-> For these examples, you should fire up an ipython interpreter on the shell by typing `ipython` (this assumes you've already installed it).
+> For these examples, you should fire up an interactive Python interpeter on the command line by typing `python` or `ipython` (if you've installed it).
 
 ## Counting
 
@@ -49,7 +56,7 @@ cat
 bird      
 ```
 
-## Count if...
+## Count if
 
 We can now combine the above techniques to count a filtered list of items. Here are a few different approaches.
 
