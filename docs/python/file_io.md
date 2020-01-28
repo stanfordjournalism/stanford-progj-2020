@@ -7,6 +7,7 @@
 - [Read lines from file](#read-lines-from-file)
 - [Read lines efficiently](#read-lines-efficiently)
 - [Writing files](#writing-files)
+- [Reading and writing files](#reading-and-writing-files)
 - [Further reading](#further-reading)
 
 ## Overview
@@ -160,9 +161,42 @@ Unlike `read` or `readlines`, the "for loop" method above reads each line from t
 
 ## Writing files
 
-Let's say that we want to create a new file containing a filtered list of animals. Specifically, we just want animals whose names do not start with the letter "c".
+Let's say that we want to create a new file containing a filtered list of animals. Specifically, we just want animals whose names do not start with the letter "c". 
 
-We'll need to filter out the `cat` and `cougar`. Note that below, we provide the "r" option, for "read", to the `open` command.
+Let's start with a hard-coded list of animals (plus the column header `animal`).
+
+```
+animals = ['animal', 'cat', 'cougar', 'dog', 'snake', 'narwhal']
+```
+
+We'll need to filter out the `cat` and `cougar`. Below, we create an empty list (`animals_filtered`) to store the filtered list.
+
+```
+animals_filtered = []
+for animal in animals:
+    if animal not in ['cat', 'cougar']:
+        animals_filtered.append(animal)
+print(animals_filtered)
+['animal', 'dog', 'snake', 'narwhal']
+```
+
+Now we're ready to write the filtered data to a new file. In this example, we once again use the `open` function. But this time we use the "w", or "write" mode. Note also that we must add in a newline to ensure that each item in our list appears on a separate row.
+
+```
+with open('animals_filtered.csv', 'w') as outfile:
+    for animal in animals_filtered:
+        # Note we have to add the newline that we 
+        # stripped above
+        outfile.write(animal + '\n')
+```
+
+## Reading and writing files
+
+So far we've learned how to read from and write to files separately, along with how to create filtered lists of data based on some conditional logic. We've also touched on the need to carefully handle the newline character. 
+
+Now let's tie those skills together with a final example. Once again, we'll exclude animals whose names start with "c" (`cat`, `cougar`).
+
+We start by reading the data from [animals.csv][] and creating a filtered list of animals. Note that we provide the "r" option, for "read", to the `open` command and we strip the newline character from each line before checking it against our list of animals to exclude .
 
 ```
 animals_filtered = []
@@ -176,10 +210,9 @@ print(animals_filtered)
 ['animal', 'dog', 'snake', 'narwhal']
 ```
 
-Now we can write the filtered list to a new file. In this example, we once again use the `open` function. But this time we use the "w", or "write" option.
+Now we can write the filtered list to a new file. In this example, we once again use the `open` function with the "w", or "write", option.
 
 ```
-
 with open('animals_filtered.csv', 'w') as outfile:
     for animal in animals_filtered:
         # Note we have to add the newline that we 
@@ -187,7 +220,7 @@ with open('animals_filtered.csv', 'w') as outfile:
         outfile.write(animal + '\n')
 ```
 
-It's important to note that above, we actually created an extra bit of work for ourselves by stripping the newlines when we read the source data. When we wrote the filtered data to a new file, we were forced to add the newline to each row. If we had not, the data would have been jumbled into one line: `animaldogsnakenarwhal`.
+It's important to note that above, we created an extra bit of work for ourselves by stripping newlines when we read the source data. When we wrote the filtered data to a new file, we were forced to add the newline to each row. If we had not, the data would have been jumbled into one line: `animaldogsnakenarwhal`.
 
 ## Further reading
 
