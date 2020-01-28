@@ -7,7 +7,7 @@
 - [Read lines from file](#read-lines-from-file)
 - [Read lines efficiently](#read-lines-efficiently)
 - [Writing files](#writing-files)
-- [Reading and writing files](#reading-and-writing-files)
+- [Tying it together with read and write](#tying-it-together-with-read-and-write)
 - [Further reading](#further-reading)
 
 ## Overview
@@ -190,7 +190,7 @@ with open('animals_filtered.csv', 'w') as outfile:
         outfile.write(animal + '\n')
 ```
 
-## Reading and writing files
+## Tying it together with read and write
 
 So far we've learned how to read from and write to files separately, along with how to create filtered lists of data based on some conditional logic. We've also touched on the need to carefully handle the newline character. 
 
