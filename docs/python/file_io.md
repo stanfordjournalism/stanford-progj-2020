@@ -15,9 +15,7 @@ Learning how to read and write files is an essential programming task.
 
 Below are some examples intended to demonstrate some basic techniques in an interactive Python shell session. 
 
-> Examples below will use the [animals.csv][] from this repo.
-
-To follow along, open an ipython terminal.
+> Most examples below use the [animals.csv][] file from this repo. To follow along, open an ipython terminal by typing `ipyton` on the command line.
 
 [animals.csv]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/animals.csv
 
@@ -45,7 +43,7 @@ f3.close()
 
 The `open` function has a few other modes, but the above read, append and write modes are the most useful to learn at the outset.
 
-Note that we made a point of closing all of the files. Failing to close a file can lead to [memory leaks](https://en.wikipedia.org/wiki/Memory_leak) and other unexpected behavor. For example, when working with files in an interactive Python interpreter, content you're expecting to appear in a file may not be "flushed" to the file until you call the `close` method on the open file.
+Note that we made a point of closing all of the files. Failing to close a file can lead to [memory leaks](https://en.wikipedia.org/wiki/Memory_leak) and other unexpected behavor. For example, when working with files in an interactive Python interpreter, content you've written while in the interpreter may not be "flushed" to the file until you call the `close` method on the open file.
 
 ### The "with" idiom
 
