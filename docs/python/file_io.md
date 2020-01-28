@@ -4,9 +4,12 @@ Learning how to read and write files is an essential programming task.
 
 Below are some examples intended to demonstrate some basic techniques in an interactive Python shell session.
 
-> Examples below will use the [animals.csv](../data/animals.csv) and [animal_ratings.csv](../data/animal_ratings.csv) files in this repo.
+> Examples below will use the [animals.csv][] and [animal_ratings.csv][] files in this repo.
 
 To follow along, open an ipython terminal.
+
+[animals.csv]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/animals.csv
+[animal_ratings.csv]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/animal_ratings.csv
 
 ## Opening and closing files
 
@@ -32,7 +35,7 @@ f3.close()
 
 The `open` function has a few other modes, but the above read, append and write modes are the most useful to learn at the outset.
 
-Note that we made a point of closing all of the files. Failing to close a file can lead to [memory leaks](https://en.wikipedia.org/wiki/Memory_leak) and other unexpected behavor -- e.g when working with files in an interactive Python interpreter, content you're expecting to appear in a file may not yet have been "flushed" to the file.
+Note that we made a point of closing all of the files. Failing to close a file can lead to [memory leaks](https://en.wikipedia.org/wiki/Memory_leak) and other unexpected behavor. For example, when working with files in an interactive Python interpreter, content you're expecting to appear in a file may not be "flushed" to the file until you call the `close` method on the open file.
 
 ### The "with" idiom
 
@@ -53,7 +56,7 @@ This idiom can feel strange at first, but using it can help avoid memory leaks o
 
 ## Reading data
 
-The simplest way to read data from a file is the `.read` method on an open file [handle](https://en.wikipedia.org/wiki/Handle_(computing)). 
+The simplest way to read data from a file is the [read](https://www.w3schools.com/python/ref_file_read.asp) method on an open file [handle](https://en.wikipedia.org/wiki/Handle_(computing)). 
 
 For example, to read data from a locally downloaded version of [animals.csv](../data/animals.csv).
 
@@ -145,18 +148,17 @@ snake
 narwhal
 ```
 
-The above reads each line from the file in a step-wise fashion, one by one. This "streaming" method of data ingestion is particularly handy when dealing with large files. Steppng through the file in a "for loop" avoids consuming excessive memory by reading in all the lines of a file at once, which is what happens when using the `read` or `readlines` methods.
-
+Unlike `read` or `readlines`, the "for loop" method above reads each line from the file in a step-wise fashion, one by one. This method of data ingestion is particularly handy when dealing with large files. It helps us avoid overwhelming our system's memory when dealing with large files, by allowing us to process data row by row in a so-called "stream".
 
 ## Writing files
 
 Let's say that we want to create a new file containing a filtered list of animals. Specifically, we just want animals whose names do not start with the letter "c".
 
-We'll need to filter out the `cat` and `cougar`.
+We'll need to filter out the `cat` and `cougar`. Note that below, we provide the "r" option, for "read", to the `open` command.
 
 ```
+animals_filtered = []
 with open('animals.csv', 'r') as infile:
-    animals_filtered = []
     for line in infile:
         animal = line.strip()
         if animal not in ['cat', 'cougar']:
@@ -164,8 +166,12 @@ with open('animals.csv', 'r') as infile:
 
 print(animals_filtered)
 ['animal', 'dog', 'snake', 'narwhal']
+```
 
-# Now we can write the filtered list to a new file
+Now we can write the filtered list to a new file. In this example, we once again use the `open` function. But this time we use the "w", or "write" option.
+
+```
+
 with open('animals_filtered.csv', 'w') as outfile:
     for animal in animals_filtered:
         # Note we have to add the newline that we 
