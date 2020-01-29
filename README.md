@@ -86,4 +86,5 @@ No class.
   * [Working with libraries](docs/python/libraries.md) - standard library and 3rd-party libraries
   * [Reading and writing CSVs](docs/python/csv.md)
   * [Downloading files](docs/python/remote_files.md)
+  * [Assignment 4](assignments/4.md) - Python functions and failed banks Python script (**Due: Mon. Feb. 3rd @ 1:30pm**)
   
