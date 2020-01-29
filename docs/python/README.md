@@ -22,6 +22,6 @@ Below are the major topics we'll cover:
   * [Embracing errors](embracing_errors.md)
   * [Counting and filtering](count_filter.md)
   * [Reading and writing text files](file_io.md), [CSVs](csv.md) and JSON
+  * [Downloading files](remote_files.md)
   * Sorting
-  * Working with remote resources (web scraping and APIs)
   * Analyzing data with Jupyter notebooks
