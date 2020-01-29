@@ -13,7 +13,7 @@ Below are the major topics we'll cover:
   * Variables as storage containers
   * Flow control ("for" loops and if/elif/else)
   * Built-in functions such as `len` and `print`
-  * Importing and using libraries (Python Standard Library and 3rd-party packages)
+  * [Importing and using libraries](libraries.md) (Python Standard Library and 3rd-party packages)
 * Python features for readable, reusable code
   * Functions
   * Modules
