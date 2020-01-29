@@ -76,7 +76,9 @@ Unlike the standard library, you must first install a third-party library before
 
 Standard package management tools such as [pip](https://pip.pypa.io/en/stable/) and [pipenv](https://pipenv.readthedocs.io/en/latest/) can be used to install third-party libraries. In this course, we generally use `pipenv` to install libraries into "virtual environments" that allow us to isolate software dependencies for each project.
 
-For example, to install the [requests](https://2.python-requests.org/en/master/) into `awesome-project`: 
+For example, to install the [requests][] library into `awesome-project`: 
+
+[requests]: https://2.python-requests.org/en/master/
 
 ```
 cd /path/to/awesome-project
@@ -84,7 +86,7 @@ pipenv install requests
 ```
 
 Once installed in the virtual environment, you can import and use modules in the same way as described [above](#importing-modules). 
-**Just don't forget to active the virtual environment before running your code or interactive interpreter!!**
+**Just don't forget to activate the virtual environment before running a script or the interactive interpreter!!**
 
 ```
 cd /path/to/awesome-project
@@ -101,6 +103,8 @@ Now you should be inside the interactive Python interpreter, where you can impor
 >>> import requests
 >>> response = requests.get('http://example.com/')
 ```
+
+See [here](remote_files.md) for more details on using [requests][].
 
 ## Further reading
 
