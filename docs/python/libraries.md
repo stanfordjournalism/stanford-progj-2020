@@ -3,7 +3,8 @@
 - [The Python Standard Library Library](#python-standard-library)
 - [Importing modules](#importing-modules)
 - [3rd-party libraries](#third-party-libraries)
-- [Installing and using 3rd-party libraries](#installing-and-using libraries)
+- [Installing and using 3rd-party libraries](#installing-and-using-libraries)
+- [Further reading](#further-reading)
 
 ## Overview
 
@@ -33,7 +34,7 @@ You can import and use modules inside a python script or the interactive interpr
 
 Let's give it a try. Open a Python interactive interpreter to follow along (type `python` or `ipython` if the latter is installed).
 
-Below we show how to import the [json module](https://docs.python.org/3/library/datetime.html) to convert a Python dictionary to a JSON string.
+Below we show how to import the [json module](https://docs.python.org/3/library/json.html) to convert a Python dictionary to [JSON](https://www.w3schools.com/js/js_json_intro.asp), a common data format used in web programming.
 
 ```
 >>> place = {'state': 'CA', 'city': 'Palo Alto'}
@@ -42,7 +43,7 @@ Below we show how to import the [json module](https://docs.python.org/3/library/
 '{"state": "CA", "city": "Palo Alto"}'
 ```
 
-Alternatively, you could directly import the `dumps` function using the `from [module] import [name]` syntax.
+Alternatively, you could directly import the [dumps function](https://docs.python.org/3/library/json.html#json.dumps) using the `from [module] import [name]` syntax.
 
 ```
 >>> from json import dumps

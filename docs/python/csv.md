@@ -22,7 +22,7 @@ The [csv module][] works in tandem with the built-in `open` function that is typ
 Below, we demo the `csv` module in the Python interactive interpreter. To follow along:
 
 * Open an interactive shell using `python` or `ipython` (if the latter is installed)
-* Download the [animal_ratings.csv][], which contains the data show below:
+* Download the [animal_ratings.csv][], which contains the data below:
 
 ```
 animal,awesomeness
@@ -64,7 +64,7 @@ A few important notes on the above code:
 * Rows are automatically split on the delimiter (a comma in this case)
 * Newline characteres are automatically stripped
 
-Because [csv.reader][] returns rows as lists of values, we must access individual values in each row based on their index position (e.g. `row[0]`). This can be less readable and more brittle from a code perspective. For example, if a government agency changes the structue of a CSV by re-ordering or adding new columns, code that relies on index position will need to be updated.
+Because [csv.reader][] returns rows as lists of values, we must access individual values in each row based on their index position (e.g. `row[0]`). This can be less readable and more brittle from a code perspective. For example, if a government agency changes the structure of a CSV by re-ordering or adding new columns, code that relies on index position will need to be updated.
 
 ### DictReader
 
