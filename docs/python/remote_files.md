@@ -9,7 +9,7 @@
 
 Acquiring files from government agencies and other data sources on the Web is crucial to data journalism. 
 
-The Python language and ecosystem offer numerous libraries for working with remote resources. In this course, we'll focus on the [requests][], a third-party library that has become a go-to resource because of its ease of use and flexibility. [requests][] can handle a variety of scenarios, from simple downloads of public files to working with authentication-based APIs such as Twitter.
+The Python language and ecosystem offer numerous libraries for working with remote resources. In this course, we'll focus on [requests][], a third-party library that is a go-to resource because of its ease of use and flexibility. [requests][] can handle a variety of scenarios, from simple downloads of data files to working with authentication-based APIs such as Twitter.
 
 [requests]: https://2.python-requests.org/en/master/
 
@@ -29,7 +29,7 @@ pipenv install requests
 
 ## Usage
 
-In the below example, we download the [animals.csv][] sample data to a local file.
+In the below example, we use `requests` to download the [animals.csv][] sample data to a local file.
 
 [animals.csv]: https://raw.githubusercontent.com/stanfordjournalism/stanford-progj-2020/master/data/animals.csv
 
@@ -49,7 +49,7 @@ snake
 narwhal
 ```
 
-Above, we use `requests.get` to [make a request](https://2.python-requests.org/en/master/user/quickstart/#make-a-request) for the remote file at a GitHub URL. The [contents](https://2.python-requests.org/en/master/user/quickstart/#response-content) of the file are available in the `response.text` attribute on the response returned by GitHub.
+Above, we use `requests.get` to [make a request](https://2.python-requests.org/en/master/user/quickstart/#make-a-request) for the remote file at a GitHub URL. The [contents](https://2.python-requests.org/en/master/user/quickstart/#response-content) of the file are available in the `.text` attribute of the response (from GitHub) to our web request.
 
 From here, you can use standard methods for writing [files](file_io.md#writing-files) or [CSVs](csv.md#writing-csvs) to save the content in a local file.
 
