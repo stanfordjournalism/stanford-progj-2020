@@ -2,7 +2,7 @@
 
 - [Intro](#intro)
 - [What is Python?](#what-is-python)
-- [Coding contexts](#coding-contents)
+- [Coding contexts](#coding-contexts)
   - [Python interactive interpreter](#python-interactive-interpreter)
   - [Python scripts](#python-scripts)
   - [Jupyter notebooks](#jupyter-notebooks)
