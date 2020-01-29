@@ -1,4 +1,14 @@
-# Python overview
+# Python Overview
+
+- [Intro](#intro)
+- [What is Python?](#what-is-python)
+- [Coding contexts](#coding-contents)
+  - [Python interactive interpreter](#python-interactive-interpreter)
+  - [Python scripts](#python-scripts)
+  - [Jupyter notebooks](#jupyter-notebooks)
+
+
+## Intro
 
 Python is a general-purpose programming language, meaning that it's useful for a variety of tasks. Python is far from the only language used in newsrooms, but it *is* one of the most common because it's so versatile and relatively easy to learn.
 

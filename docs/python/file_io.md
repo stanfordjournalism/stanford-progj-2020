@@ -1,7 +1,6 @@
 # Reading and writing files
 
-## Table of Contents
-
+- [Overview](#overview)
 - [Opening and closing files](#opening-and-closing-files)
 - [Reading a file](#reading-a-file)
 - [Read lines from file](#read-lines-from-file)

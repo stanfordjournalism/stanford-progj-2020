@@ -1,7 +1,6 @@
 # CSVs in Python
 
-## Table of Contents
-
+- [Overview](#overview)
 - [Reading CSVs](#readings-csvs)
   - [csv.reader](#csv-reader)
   - [csv.DictReader](#csvdictreader)

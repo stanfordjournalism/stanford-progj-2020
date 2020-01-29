@@ -1,7 +1,6 @@
 # Counting and filtering
 
-## Table of contents
-
+- [Overview](#overview)
 - [Counting](#counting)
 - [Filtering](#filtering)
 - [Count if](#count-if)
