@@ -1,9 +1,9 @@
 # CSVs in Python
 
 - [Overview](#overview)
-- [Reading CSVs](#readings-csvs)
-  - [csv.reader](#csv-reader)
-  - [csv.DictReader](#csvdictreader)
+- [Reading CSVs](#reading-csvs)
+  - [csv.reader](#reader)
+  - [csv.DictReader](#dictreader)
 - [Writing CSVs](#writing-csvs)
   - [csv.writer](#writer)
   - [csv.DictWriter](#dictwriter)
