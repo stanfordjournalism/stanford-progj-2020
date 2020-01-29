@@ -1,7 +1,5 @@
 # Downloading remote files
 
-## Table of Contents
-
 - [Overview](#overview)
 - [Install](#install)
 - [Usage](#usage)
