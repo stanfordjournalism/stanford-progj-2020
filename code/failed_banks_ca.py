@@ -1,8 +1,10 @@
 """
-This script downloads the list of FDIC failed
-banks and generates a new file containing
-just the CA banks. It also prints out
+This script should download the list of FDIC failed
+banks and generate a new file containing
+just the CA banks. It should also prints out
 the number of failed banks in CA.
+
+See the TODO notes below for details on each step.
 
 USAGE:
 
