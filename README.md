@@ -81,8 +81,9 @@ No class.
   * **[Assignment 3](assignments/3.md)** - Python strings and Awesome Animals coding exercise (**Due: Wed. Jan. 29th @ 1:30pm**)
   * Review [Assignment 1](assignments/1.md) solutions, assuming everyone has submitted and time allows
 
-  #### Day 8 - CSVs and remote files in Python
+  #### Day 8 - Libraries, CSVs and remote files in Python
   
   * [Working with libraries](docs/python/libraries.md) - standard library and 3rd-party libraries
-  * Downloading files
+  * [Reading and writing CSVs](docs/python/csv.md)
+  * [Downloading files](docs/python/remote_files.md)
   

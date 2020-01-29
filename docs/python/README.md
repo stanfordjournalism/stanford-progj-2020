@@ -21,7 +21,7 @@ Below are the major topics we'll cover:
 * Practical skills for getting things done
   * [Embracing errors](embracing_errors.md)
   * [Counting and filtering](count_filter.md)
-  * [Reading and writing text files](file_io.md), CSVs and JSON
+  * [Reading and writing text files](file_io.md), [CSVs](csv.md) and JSON
   * Sorting
   * Working with remote resources (web scraping and APIs)
   * Analyzing data with Jupyter notebooks
