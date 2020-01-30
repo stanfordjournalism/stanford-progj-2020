@@ -139,11 +139,12 @@ Here's an example:
 >>> with open('animals_shortlist.csv', 'w') as newfile:
 ...     col_headers = ['animal', 'awesomeness']
 ...     dict_writer = csv.DictWriter(newfile, fieldnames=col_headers)
+...     dict_writer.writeheader()
 ...     dict_writer.writerows(animals)
 
 ```
 
-[csv.DictWriter][] is largely identical in usage to [csv.writer][], except that we must pass the column headers to the `fieldnames` argument.
+[csv.DictWriter][] is largely identical in usage to [csv.writer][], except that we must pass the column headers to the `fieldnames` argument. We also have to call `writerheader` to ensure that the header row is written to the file.
 
 
 <a name="myfootnote1">1</a>: *The main advantage of OrderedDicts is that they retain the order in which items are inserted (traditional dictionaries prior to Python 3.6 did not guarantee sort order). In Python 3.8, the CSV module switches back to standard dictionaries.*
