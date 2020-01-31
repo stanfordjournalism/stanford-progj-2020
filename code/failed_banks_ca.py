@@ -21,7 +21,7 @@ url = 'https://www.fdic.gov/bank/individual/failed/banklist.csv'
 
 
 # TODO: Use the "with" statement and "open" function,
-# along with the CSV module, to write file contents
+# (you don't need to use CSV for this step) to write the file contents
 # (as returned by requests) to a local file caled "banklist.csv"
 
 
