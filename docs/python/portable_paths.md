@@ -5,7 +5,6 @@
 - [Relative Paths](#relative-paths)
 - [Environment Variables and pipenv](#environment-variables-and-pipenv)
 - [Path Tricks in Python](#path-tricks-in-python)
-  - [Constructing file paths](#constructing-file-paths)
   
 ## Overview
 
@@ -13,7 +12,7 @@ Portable code is designed to run easily on different computers. Code can have va
 
 Achieving such portability can involve quite a bit of work, and typically entails setting up complex toolchains to automate testing on different operating systems and versions of Python (not to mention writing highly portable code in the first place). 
 
-In this course, we won't go to quite those lengths. We will, however, focus on one type of portability that is relatively easy to achieve and has big payoffs in team environments: file paths. 
+In this course, we won't go to quite those lengths. We will, however, focus on one type of portability that is relatively easy to achieve and offers a solid payoff in team environments: file path names that work across different machines.
 
 The primary concern is writing code with file paths that are **not** specific to one person's system.
 
