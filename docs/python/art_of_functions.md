@@ -38,13 +38,13 @@ Functions should generally have clear inputs and outputs.
 
 ```
 def convert_json(json_path):
-	# code to read local JSON fle
-	# and convert to list
-	rows = [
-		['ca', 'san fran'],
-		['ca', 'los angeles']
-	]
-	return rows
+    # code to read local JSON fle
+    # and convert to list
+    rows = [
+        ['ca', 'san fran'],
+        ['ca', 'los angeles']
+    ]
+    return rows
 ```
 
 Having a hard time naming a function? It may be doing too much! Try breaking large functions into smaller functions. 
