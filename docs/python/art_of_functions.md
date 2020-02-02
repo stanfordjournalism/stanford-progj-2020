@@ -29,7 +29,7 @@ def download_json():
     pass
     
 def convert_json(json_file):
-    # code that converts JSON file
+    # code that reads JSON file
     # and converts to a CSV
     pass
 ```
@@ -38,8 +38,8 @@ Functions should generally have clear inputs and outputs.
 
 ```
 def convert_json(json_path):
-	# code to read data from 
-	# local JSON file and convert
+	# code to read local JSON fle
+	# and convert to list
 	rows = [
 		['ca', 'san fran'],
 		['ca', 'los angeles']
@@ -53,9 +53,10 @@ Having a hard time naming a function? It may be doing too much! Try breaking lar
 ### BAD ###
 
 def scrape_and_process_and_load():
-	# bunch of code to scrape a website,
-	# process the data, and load it
-	# into a database.
+    # bunch of code to scrape a website,
+    # process the data, and load it
+    # into a database.
+    pass
 	
 	
 ### BETTER ###
