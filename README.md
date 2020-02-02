@@ -86,5 +86,18 @@ No class.
   * [Working with libraries](docs/python/libraries.md) - standard library and 3rd-party libraries
   * [Reading and writing CSVs](docs/python/csv.md)
   * [Downloading files](docs/python/remote_files.md)
-  * [Assignment 4](assignments/4.md) - Python functions and failed banks Python script (**Due: Mon. Feb. 3rd @ 1:30pm**)
+  * **[Assignment 4](assignments/4.md)** - Python functions and failed banks Python script (**Due: Mon. Feb. 3rd @ 1:30pm**)
+
+### Week 5
+
+#### Day 8 - APIs and the News
+
+* [APIs and the News](docs/apis_and_the_news.md)
+* [Portable (file) paths in Python](docs/python/portable_paths.md)
+
+#### Day 9 - Art of Functions
+
+* TK
+
+
   
