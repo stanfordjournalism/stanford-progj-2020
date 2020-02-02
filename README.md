@@ -90,12 +90,12 @@ No class.
 
 ### Week 5
 
-#### Day 8 - APIs and the News
+#### Day 9 - APIs and the News
 
 * [APIs and the News](docs/apis_and_the_news.md)
 * [Portable (file) paths in Python](docs/python/portable_paths.md)
 
-#### Day 9 - Art of Functions
+#### Day 10 - Art of Functions
 
 * TK
 
