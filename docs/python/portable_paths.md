@@ -135,7 +135,16 @@ There are even more robust strategies for dynamically generating file paths in P
 
 ## Path Tricks in Python
 
-The final strategy for creating portable code involves using Python itself to construct file paths, rather than relying on environment variables. Assuming the same file structure mentioned above, below is an example that would work in `scripts/myscript.py`:
+A final technique for portability involves using Python to dynamically construct file paths, rather than relying on environment variables. 
+
+Let's once again assume we have the following project structure:
+
+```
+~/project/scripts/myscript.py
+~/project/data/awesome.csv
+```
+
+The Python code in `scripts/myscript.py` could dynamically construct the path to `data/awesome.csv` in the following, portable way:
 
 ```
 import os
@@ -147,6 +156,6 @@ with open(csv_file, 'r') as source_file:
 	text = source_file.read()
 ```
 
-Notice that we're using the Python [Path library](https://docs.python.org/3/library/pathlib.html) to dynamically resolve the root of our project, based on a special variable called `__file__`. This variable is automatically created by Python and contains the name of the file from which the Python code was loaded (in this case `myscript.py`). We feed this variable to `Path`, which in turn provides some helpful methods related to...you guessed...file paths. The  `.parent` method provides the parent directory of a file or directory. By calling it two times, we're able to accurately resolve the project root relative to `scripts/myscript.py`.
+Notice that we're using the Python [Path library](https://docs.python.org/3/library/pathlib.html) to dynamically resolve the root of our project, based on a special variable called `__file__`. This variable is automatically created by Python and contains the name of the file from which the Python code was loaded (in this case `myscript.py`). We feed this variable to `Path`, which in turn provides some helpful methods related to...you guessed it...file paths. The  `.parent` method provides the parent directory of a file or directory. By calling it two times, we're able to accurately resolve the project root relative to `scripts/myscript.py`.
 
 This is a somewhat more advanced use of Python to dynamically construct file paths. It's arguably a bit more robust than the environment variable method described above, although it requires us to write more complex code than if we were to simply rely on an automatically generated environment variable.
