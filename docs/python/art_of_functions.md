@@ -12,7 +12,7 @@ def do_stuff():
     print("Totally doing stuff")
 ```
 
-Functions are an invaluable tool that help write readable, reliable and reusable code.  
+Functions are an invaluable tool that help write readable, reliable and reusable code.
 
 Functions help decompose a problem into more manageable chunks. They help you reason more clearly about the problem at hand.
 

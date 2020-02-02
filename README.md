@@ -97,7 +97,8 @@ No class.
 
 #### Day 10 - Art of Functions
 
-* TK
+* [The Art of Writing Functions](docs/python/art_of_functions.md)
+
 
 
   
