@@ -15,7 +15,7 @@ Below are the major topics we'll cover:
   * Built-in functions such as `len` and `print`
   * [Importing and using libraries](libraries.md) (Python Standard Library and 3rd-party packages)
 * Python features for readable, reusable code
-  * Functions
+  * [Functions](art_of_functions.md)
   * Modules
   * Packages
 * Practical skills for getting things done
