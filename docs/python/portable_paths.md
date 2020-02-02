@@ -26,7 +26,7 @@ with open(path, 'r') as source_file:
 
 In fact, J. Smith will be in for a rude surprise if he gets a new laptop and picks a different username.
 
-Using a file path such as `~/Desktop/my-project/data.csv`, where the [tilde is dynamically resolved]([tilde expansion](http://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html)) to the user's home directory (e.g. `/Users/jsmith`) is not much better. We're still specifying  the `Desktop`, which may not be where another user places the `my-project` folder.
+Using a file path such as `~/Desktop/my-project/data.csv`, where the [tilde is dynamically resolved](http://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html) to the user's home directory (e.g. `/Users/jsmith`) is not much better. We're still specifying  the `Desktop`, which may not be where another user places the `my-project` folder.
 
 ```
 path = '~/Desktop/my-project/data.csv'
@@ -34,7 +34,7 @@ with open(path, 'r') as source_file:
 	text = source_file.read()
 ```
 
-Ideally, we want a way to dynamically construct file paths so that they'll work on any user's machine. Below are a few strategies that help us construct paths designed to 
+Ideally, we want a way to dynamically construct file paths so that they'll work on any user's machine. Below are a few strategies that help us construct paths in a portable way.
 
 ## Relative Paths
 
@@ -92,7 +92,7 @@ Some of these variables, such as `$HOME`, can be quite useful in both bash and P
 
 We can then look up and use the value in our scripts, allowing us to avoid hard-coding such sensitive information into the script itself.
 
-In a similar fashion, the [DataKit](../datakit.md) [project template](https://github.com/stanfordjournalism/cookiecutter-stanford-progj) we've been using automatically creates a few helpful environment variables. These variables are stored in a hidden `.env` file in each project, and are [automatically exported](https://pipenv.readthedocs.io/en/latest/advanced/#automatic-loading-of-env) (without need for using the `export` command explicitly) our project's virtual environment whe we run `pipenv shell`.
+In a similar fashion, the [DataKit](../datakit.md) [project template](https://github.com/stanfordjournalism/cookiecutter-stanford-progj) we've been using automatically creates a few helpful environment variables. These variables are stored in a hidden `.env` file in each project, and are [automatically loaded](https://pipenv.readthedocs.io/en/latest/advanced/#automatic-loading-of-env) (without need for using the `export` command explicitly) into our project's virtual environment whe we run `pipenv shell`.
 
 ```
 ~> cd ~/code/comm-177p-assignment-1
@@ -113,18 +113,11 @@ Launching subshell in virtual environment…
 DATA_DIR=/Users/tumgoren/code/comm-177p-assignment-1/data
 ```
 
- Above, note that:
+ Above, note that we used [command substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html) in the variable definitions to dynamically generate the values based on the current working directory (`~/code/comm-177p-assignment-1`).
  
- * We used [command substitution](https://www.gnu.org/software/bash/manual/html_node/Command-Substitution.html) in the variable definitions to dynamically generate the values based on the current working directory.
+The variables can now be used by shell scripts and Python code to build portable paths to files in the project.
  
- The variables can now be used by shell scripts and Python code to build portable paths to files in the project. Again, assume we have a project structure such as below:
- 
- ```
- ~/project/scripts/myscript.py
-~/project/data/awesome.csv
- ```
- 
-Then `myscript.py` could dynamically build a path to `awesome.csv` using the following strategy:
+For example, a script located at `comm-177p-assignment-1/scripts/myscript.py` could dynamically build a path to `comm-177p-assignment-1/data/awesome.csv` using the below strategy:
 
 ```
 import os
