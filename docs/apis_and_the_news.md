@@ -17,4 +17,4 @@ Web APIs require machines to exchange information over the Internet. These APIs 
 
 APIs are an invaluable resource for newsrooms. These [slides](https://docs.google.com/presentation/d/e/2PACX-1vRol4DL3Rta4xpn2ltzHtQhlgrmlXSnFiewdmA0azxyFS2nPVJ8a-Xxxs5-3MvIGDre0IHygFwlZXYf/pub?start=false&loop=false&delayms=3000) offer some more background on APIs and their relevance to journalism.
 
-<a src="https://docs.google.com/presentation/d/e/2PACX-1vRol4DL3Rta4xpn2ltzHtQhlgrmlXSnFiewdmA0azxyFS2nPVJ8a-Xxxs5-3MvIGDre0IHygFwlZXYf/pub?start=false&loop=false&delayms=3000"><img src="../static/apis_and_news.png" alt="apis and news first slide"></a>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vRol4DL3Rta4xpn2ltzHtQhlgrmlXSnFiewdmA0azxyFS2nPVJ8a-Xxxs5-3MvIGDre0IHygFwlZXYf/pub?start=false&loop=false&delayms=3000"><img src="../static/apis_and_news.png" alt="apis and news first slide"></a>
