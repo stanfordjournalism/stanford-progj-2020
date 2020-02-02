@@ -1,5 +1,5 @@
 
-# Portable Code
+# Portable Paths
 
 - [Overview](#overview)
 - [Relative Paths](#relative-paths)
@@ -9,9 +9,15 @@
   
 ## Overview
 
-Portable code is designed to run easily on any system. An important concern when writing code in a team environment is to ensure that file paths are not specific to one person's system.
+Portable code is designed to run easily on different computers. Code can have varying degrees of portability. Programmers often take pains, for example, to ensure their code runs on all major operating systems and different versions of a given programming language.
 
-A script that uses a [fully qualified file name](https://en.wikipedia.org/wiki/Fully_qualified_name#Filenames_and_paths), for example, would *not* run correctly on anyone else's computer:
+Achieving such portability can involve quite a bit of work, and typically entails setting up complex toolchains to automate testing on different operating systems and versions of Python (not to mention writing highly portable code in the first place). 
+
+In this course, we won't go to quite those lengths. We will, however, focus on one type of portability that is relatively easy to achieve and has big payoffs in team environments: file paths. 
+
+The primary concern is writing code with file paths that are **not** specific to one person's system.
+
+A script that uses a [fully qualified file name](https://en.wikipedia.org/wiki/Fully_qualified_name#Filenames_and_paths), or absolute path, would *not* run correctly on anyone else's computer:
 
 ```
 path = '/Users/jsmith/Desktop/my-project/data.csv'
