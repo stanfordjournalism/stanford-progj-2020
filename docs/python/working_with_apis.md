@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Leveling up on an API](#leveling-up-on-an-api)
 - [Trump Organization example](#trump-organization-example)
-- [Trump Entities exercise](#rump-entities-exercise)
+- [Trump Entities exercise](#trump-entities-exercise)
 
 ## Overview
 
