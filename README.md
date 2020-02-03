@@ -92,8 +92,9 @@ No class.
 
 #### Day 9 - APIs and the News
 
-* [APIs and the News](docs/apis_and_the_news.md)
+* [APIs and the News](docs/apis_and_the_news.md) overview and [presentation](https://tinyurl.com/apis-and-the-news)
 * [Portable (file) paths in Python](docs/python/portable_paths.md)
+* **[Assignment 5](assignments/5.md)** - Python sorting, portable paths and register for ProPublica API key (**Due: Mon. Feb. 5th @ 1:30pm**)
 
 #### Day 10 - Art of Functions
 

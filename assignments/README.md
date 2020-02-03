@@ -9,9 +9,13 @@ Assignment|Description|Solution
 [Assignment 2][] | DataKit reading and Python lists and dicts | 
 [Assignment 3][] | Python strings and Awesome Animals coding exercise | 
 [Assignment 4][] | Python functions and failed banks Python script |
+[Assignment 5][] | Python sorting, portable paths and ProPublica API key |
+
 
 [Assignment 0]: 0.md
 [Assignment 1]: 1.md
 [Assignment 2]: 2.md
 [Assignment 3]: 3.md
 [Assignment 4]: 4.md
+[Assignment 5]: 5.md
+
