@@ -17,11 +17,11 @@ Its [company search endpoint](https://api.opencorporates.com/documentation/API-R
 
 > https://api.opencorporates.com/v0.4/companies/search?q=trump+organization
 
-Whereas the [company detail endpoint](https://api.opencorporates.com/documentation/API-Reference#get-companies/:jurisdiction_code/:company_number) provides a bit more information on each entit such as officers and number of employees:
+Whereas the [company detail endpoint](https://api.opencorporates.com/documentation/API-Reference#get-companies/:jurisdiction_code/:company_number) provides a bit more information on each entity such as officers and number of employees:
 
 > https://api.opencorporates.com/companies/us_ny/694908
 
-**Important Note**: OpenCorporates is a great service and provides data free for public journalism projects. If you plan to use their data for a private or commercial project, please make sure you obey the terms of their [license](https://opencorporates.com/legal/licence).
+Below, we'll work through an example using OpenCorporates data to get familiar with the process of using APIs. OpenCorporates is a great service and provides data free for public journalism projects. If you plan to use their data for a private or commercial project, please make sure you obey the terms of their [license](https://opencorporates.com/legal/licence).
 
 
 ## Leveling up on an API
@@ -30,12 +30,12 @@ Before we can start using an API, we typically have to spend some time getting a
 
 Below are some strategies for leveling up on an API:
 
-* Read the docs (thoroughly)
-* Identify API [endpoints][] of interest (i.e. ones that address the story or topic you're exploring)
+* Read the docs thoroughly.
+* Identify API [endpoints][] of interest (i.e. ones that address the story or topic you're exploring).
 * API providers sometimes offer example API calls that you can try in a browser. Other providers even offer an interactive console in the browser for experimenting. Try kicking the tires by customizing example API calls.
 * JSON and XML data can be brutal to read. Use a Web browser (or [browser plugin](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)) that formats the data for readability and lets you expand/collapse nested data.
-* Experiment in the interactive Python shell. Make an API call to fetch some data. Then explore the data using the [type function][] and [list](https://docs.python.org/3.8/tutorial/datastructures.html#more-on-lists) and [dictionary](https://docs.python.org/3.8/tutorial/datastructures.html#dictionaries) methods such as `.keys()` to [introspect](https://en.wikipedia.org/wiki/Type_introspection) the nested layers of data.
-* Look for Python “[client](https://github.com/datamade/census)” libraries that ease use of the API
+* Experiment in the interactive Python shell. Make an API call to fetch some data. Then [introspect](https://en.wikipedia.org/wiki/Type_introspection) the data using the [type function][] and [list](https://docs.python.org/3.8/tutorial/datastructures.html#more-on-lists) and [dictionary](https://docs.python.org/3.8/tutorial/datastructures.html#dictionaries) methods such as `.keys()`.
+* Look for Python “[client](https://github.com/datamade/census)” libraries that ease use of the API.
 
 [type function]: https://www.w3schools.com/python/ref_func_type.asp
 
@@ -48,6 +48,7 @@ Let's try out some of the techniques mentioned above using OpenCorporates data o
 First let's grab the data. Note that below, we use the `response.json()` method to automatically transform the JSON string to a Python data structure. 
 
 ```
+>>> import requests
 >>> url = "https://api.opencorporates.com/companies/us_ny/694908"
 >>> response = requests.get(url)
 >>> data = response.json()
