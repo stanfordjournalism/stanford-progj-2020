@@ -45,7 +45,9 @@ Let's try out some of the techniques mentioned above using OpenCorporates data o
 
 > Note, you must install `requests` before running the below code.
 
-First let's grab the data. Note that below, we use the `response.json()` method to automatically transform the JSON string to a Python data structure. 
+First let's grab the data. Note that below, we use the `response.json()` method to automatically transform the JSON string to a Python data structure. The `requests` library provides this as a handy feature because it's so often used to request JSON. Farther down, we'll also see how to use Python's built-in [json library][] to write data to a file. 
+
+[json library]: https://docs.python.org/3/library/json.html
 
 ```
 >>> import requests
@@ -109,10 +111,12 @@ Note that above, the `corporate_groupings` key is a list of dictionaries. We'd a
                         'wikipedia_id': 'Donald_Trump'}}
 ```
 
-Finally, let's say we wanted to save all this data to a local file. We can easily do this using the [json library](https://docs.python.org/3/library/json.html).
+Finally, let's say we wanted to save all this data to a local file. We can easily do this using the [json library][].
 
 ```
-# Note we use "indent=4" to nicely format the output
+# Import json library and use "indent=4" to 
+# nicely format the output
+>>> import json
 >>> with open('trump_org_inc.json', 'w') as outfile:
 ...     json.dump(data, outfile, indent=4)
 ...    
