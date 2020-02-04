@@ -100,7 +100,9 @@ main()
 
 ## Exercise
 
-Try rewriting the below code to use multiple, clearly defined functions. Make sure to have a [`main`](#the-main-function) function at the top of the script that calls your task-specific functions. And don't forget to call `main()` at the end of your script to kick things off.
+Try rewriting the below code to use multiple, clearly defined functions. In particular, think about what if any inputs and outputs each function should have. For example, does one function return a value that must be passed to another function?
+
+Once you've defined the functions and their interplay, create a [`main`](#the-main-function) function at the top of the script to orchestrate the other functions. Remember, the job of `main` is to invoke these functions in the expected manner, handling inputs and outputs as needed. Lastly, don't forget to call `main()` at the end of your script to kick things off.
 
 ```
 import bs4, requests
