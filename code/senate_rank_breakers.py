@@ -40,7 +40,7 @@ def main():
 
 ### TASK-SPECIFIC FUNCTIONS GO HERE ###
 
-# For example, here's one to get you started
+# For example, here's a function one to get you started
 def get_members_data(api_key):
     # TODO: get the members data using requests library
     # and return the data as a Python data structure
