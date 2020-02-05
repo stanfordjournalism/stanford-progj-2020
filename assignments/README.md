@@ -10,6 +10,8 @@ Assignment|Description|Solution
 [Assignment 3][] | Python strings and Awesome Animals coding exercise | 
 [Assignment 4][] | Python functions and failed banks Python script |
 [Assignment 5][] | Python sorting, portable paths and ProPublica API key |
+[Assignment 6][] | How the Internet/Web work  |
+[Assignment 7][] | Breaking ranks on impeachment - Python script |
 
 
 [Assignment 0]: 0.md
@@ -18,4 +20,7 @@ Assignment|Description|Solution
 [Assignment 3]: 3.md
 [Assignment 4]: 4.md
 [Assignment 5]: 5.md
+[Assignment 6]: 6.md
+[Assignment 7]: 7.md
+
 

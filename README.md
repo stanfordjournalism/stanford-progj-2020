@@ -97,10 +97,11 @@ No class.
 * [Portable (file) paths in Python](docs/python/portable_paths.md)
 * **[Assignment 5](assignments/5.md)** - Python sorting, portable paths and register for ProPublica API key (**Due: Mon. Feb. 5th @ 1:30pm**)
 
-#### Day 10 - Art of Functions
+#### Day 10 - Art of Functions and Senate Impeachment Script
 
 * [The Art of Writing Functions](docs/python/art_of_functions.md)
-
+* **[Assignment 6](assignments/6.md)** - Web basics (**Due: Mon. Feb. 10th @ 1:30pm**)
+* **[Assignment 7](assignment/7.md)** - Breaking ranks on impeachment Python script (**Due: Wed. Feb. 12th @ 1:30pm**)
 
 
   
