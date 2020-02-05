@@ -31,7 +31,7 @@ import requests
 # Python "idiom" for invoking the "main" function.
 def main():
     api_key = os.environ["PROPUBLICA_API_KEY"]
-    members = get_members(api_key)
+    members = get_members_data(api_key)
     # TODO: invoke the other functions
     # you create to download, sort candidates
     # based on how often they vote against their
@@ -40,6 +40,14 @@ def main():
 
 ### TASK-SPECIFIC FUNCTIONS GO HERE ###
 
+# For example, here's one to get you started
+def get_members_data(api_key):
+    # TODO: get the members data using requests library
+    # and return the data as a Python data structure
+    # Below is a placeholder "data" value for data that
+    # you should replace with actual data).
+    data = {}
+    return data
 
 
 # Use the standard convention for triggering
