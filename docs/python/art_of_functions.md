@@ -100,9 +100,17 @@ main()
 
 ## Exercise
 
-Try rewriting the below code to use multiple, clearly defined functions. In particular, think about what if any inputs and outputs each function should have. For example, does one function return a value that must be passed to another function?
+The code below scrapes and counts the words on a very basic web page.
 
-Once you've defined the functions and their interplay, create a [`main`](#the-main-function) function at the top of the script to orchestrate the other functions. Remember, the job of `main` is to invoke these functions in the expected manner, handling inputs and outputs as needed. Lastly, don't forget to call `main()` at the end of your script to kick things off.
+Spend a few minutes reviewing the code and getting a sense of what it does. 
+
+Then try rewriting the code to use multiple, clearly defined functions. 
+
+It's especially helpful to print out the code and just use pen on paper to group related code into functions and give them clear names.
+
+Along the way, think about what if any inputs and outputs each function should have. For example, does one function return a value that must be passed to another function?
+
+Once you've defined the functions and their interplay, create a script with a [`main`](#the-main-function) function at top that orchestrates the other functions. Remember, the job of `main` is to invoke these functions in the expected manner, handling inputs and outputs as needed. Lastly, don't forget to call `main()` at the end of your script to kick things off.
 
 ```
 import bs4, requests
