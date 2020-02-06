@@ -33,10 +33,8 @@ def main():
     api_key = os.environ["PROPUBLICA_API_KEY"]
     members = get_members_data(api_key)
     # TODO: invoke the other functions
-    # you create to download, sort candidates
-    # based on how often they vote against their
-    # party, and print the top 5 (aka most likely
-    # to vote against party) for Democrats and Republicansk
+    # you create to sort candidates, print
+    # the report on top 5 candidates, etc.
 
 ### TASK-SPECIFIC FUNCTIONS GO HERE ###
 
