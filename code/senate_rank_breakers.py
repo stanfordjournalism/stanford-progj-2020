@@ -42,10 +42,32 @@ def main():
 
 # For example, here's a function one to get you started
 def get_members_data(api_key):
-    # TODO: get the members data using requests library
-    # and return the data as a Python data structure
-    # Below is a placeholder "data" value for data that
-    # you should replace with actual data).
+    """
+    Get the members data using requests library
+    and return the data as a Python data structure.
+    """
+    # In order to use the ProPublica API, we must send our
+    # API key in the request's "headers." HTTP headers allow us
+    # to exchange metadata with a web server.
+    # For more background on HTTP:
+    #  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+    # For details on the header required by ProPub's API:
+    #  https://projects.propublica.org/api-docs/congress-api/#authentication
+
+    # Below we've prepared the HTTP headers for you.
+    # You'll need to use them with requests.get
+    headers = {'X-API-Key': api_key }
+
+    # The URL for the Members endpoint
+    url = "https://api.propublica.org/congress/v1/116/senate/members.json"
+
+    # TODO: Use requests to call the API
+    # This is a bit more involved than our usual requests.get call.
+    # See below link for details on how to implement:
+    #   https://2.python-requests.org/en/master/user/quickstart/#custom-headers
+
+    # Lastly, below is a placeholder "data" value that
+    # you should replace with actual data from the ProPublica API
     data = {}
     return data
 
