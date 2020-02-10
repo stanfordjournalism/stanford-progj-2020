@@ -50,7 +50,7 @@ accurate information.
 
 For these reasons, scraping should be treated as an option of last resort. When a government website does not offer easy methods for obtaining data, journalists typically reach out to the agency and possibly file public records requests to obtain structured data or digital files. They seek to exhaust easier options before turning to their scraping toolkit. 
 
-## Scrape ethically
+## Ethical scraping
 
 Scraping ethically implies a number of best practices. To mention a few:
 
@@ -91,5 +91,5 @@ print(h1.text)
 
 ## More resources
 
-- [Web scraping exercises](#exercises.md) - A few sites to challenge your scraping skills.
-- [Web scraping resources](#resources.md) - Tutorials, key concepts, code libraries for scraping, etc.
+- [Web scraping exercises](exercises.md) - A few sites to challenge your scraping skills.
+- [Web scraping resources](resources.md) - Tutorials, key concepts, code libraries for scraping, etc.
