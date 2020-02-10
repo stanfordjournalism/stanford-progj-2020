@@ -104,4 +104,11 @@ No class.
 * **[Assignment 7](assignments/7.md)** - Breaking ranks on impeachment Python script (**Due: Wed. Feb. 12th @ 1:30pm**)
 
 
-  
+### Week 6
+
+#### Day 11 - Web scraping for the news
+
+* [Web scraping for the news](docs/web_scraping/README.md) - a high-level overview of web scraping in a news context.
+* [Web scraping 101](docs/web_scraping/101.md) - how to dissect a website, various obstacles to scraping and strategies for overcoming them
+* [Web scraping exercises](docs/web_scraping/exercises.md) - some websites to challenge your newfound scraping skills
+* [Web scraping resources](docs/web_scraping/resources.md) - tutorials, etc.

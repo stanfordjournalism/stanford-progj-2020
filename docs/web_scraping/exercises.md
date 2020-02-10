@@ -1,6 +1,6 @@
 # Web Scraping Exercises
 
-For this exercise, perform one of the below scrapes.
+Below are a few exercises to help practice web scraping.
 
 -   [Texas Executed Offenders](https://www.tdcj.texas.gov/death_row/dr_executed_offenders.html) - Scrape the list of offender data and save it to a CSV. Bonus points: Scrape the final statement for each offender.
 

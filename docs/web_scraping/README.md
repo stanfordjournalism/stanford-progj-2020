@@ -1,63 +1,75 @@
-# Web Scraping for News
+# Web Scraping for the News
 
 - [Overview](#overview)
-- [Scraping in Python](#scraping-in-python)
-- [Further reading](#further-reading)
-- [Choose your own scraping adventure](#choose-your-own-scraping-adventure)
+- [Value of scraping](#value-of-scraping)
+- [Scraping mechanics and challenges](#scraping-mechanics-and-challenges)
+- [The option of last resort](#the-option-of-last-resort)
+- [Ethical scraping](#ethical-scraping)
+- [Python example](#python-example)
+- [More resources](#more-resources)
 
 ## Overview
 
 Web scraping is the act of automating the acquisition of data or files
-(images, videos, documents, etc.) from the web. The data may live on one
-or more pages of a website, or perhaps many different websites. The
-basic high-level concept is that you're mimicking the actions a human
-might take to manually visit the site(s) and extract information.
+(images, videos, documents, etc.) from the web. The data may live on one or more pages of a website, or perhaps many different websites. At root, web scraping involves writing code to mimic the actions a human
+might take to visit a site in a web browser and manually extract information.
 
-Why is web scraping a valuable tool for the news? Oftentimes,
-journalistically valuable information is locked up on a website that
-lacks easier methods for data acquisition (e.g. through downloadable
-CSVs, an API or by public records request). Or the website reflects the most
-up-to-date or widest scope of information, whereas other resources only
-offer outdated or more limited subsets of information.
+## Value of scraping
 
-In such scenarios, web scraping can help capture information that helps
-you tell the most accurate and timely story.
+Why is web scraping a valuable tool for the news? 
 
-ProPublica's [Dollars for Docs](https://projects.propublica.org/docdollars) website is a
-great example. Here's a write-up on the [scraping aspect](https://www.propublica.org/nerds/scraping-websites) of the work.
+Often, journalistically valuable information is locked up on a website that lacks easier methods for data acquisition. Not all government agencies, for example, offer downloadable CSVs or APIs. Nor do they always to public records requests in a timely or helpful manner.
 
-At a technical level, web scraping typically involves extracting
+Web scraping allows journalists to acquire information in the face of technical or bureaucratic hurdles.
+
+Scraping is also useful in scenarios where a website offers the most up-to-date or widest scope of information. In such cases, web scraping can help journalists tell a more accurate and timely story.
+
+ProPublica's [Dollars for Docs](https://projects.propublica.org/docdollars) website is a great example. Here's a write-up on the [scraping aspect](https://www.propublica.org/nerds/scraping-websites) of the work.
+
+## Scraping mechanics and challenges
+
+On a technical level, web scraping typically involves extracting
 information from the HTML of a website and/or files linked to by the
 website, which may in turn be downstream web pages. This process can be
-automated by understanding the anatomy of a site -- how pages are
-structured, URL patterns, etc. -- and then creating an automated script
-that visits the page(s) and extracts target information.
+automated by [understanding the anatomy of a site](101.md#dissecting-a-web-site) -- how pages are
+structured, URL patterns, etc. -- and then creating a script
+that retrieves (or visits) web pages and extracts the target information.
 
 Scraping can be more or less difficult depending on the nature of the
-site. A simple site with no dynamic content and predictable URL patterns
-could be a quick job, compared to one that uses web forms, randomized
-URLs, cookies or sessions, dynamically generated content, password-based
-logins, etc.
+site. A simple site with no dynamic content and predictable URL patterns could be a quick job, compared to one that uses web forms, randomized URLs, cookies or sessions, dynamically generated content, password-based logins, etc. Sites often use a combination of these strategies, so it's important to spend time learning how a site works and choose an appropriate [scraping strategy](101.md#-scraping-strategies).
 
-By definition, web scraping is a brittle activity. Websites move, URL
-and page structures evolve, and interactivity gets added or removed.
+## The option of last resort
+
+Web scraping is a brittle activity. Sites move, URL
+and page structures evolve, interactivity gets added or removed.
+
+Shiny new web scrapers inevitably break in the days, months and years after they were written.
+
 Further, websites often do *not* reflect the most recent or most
-accurate information. Be prepared for your shiny new web scraper to break in the days, months and years ahead. *For these reasons, scraping should be treated as
-an option of last resort, after you've evaluated all other options that
-might work for your use case*.
+accurate information. 
 
-Finally, you should always try to scrape "ethically." This means
-respecting a site's terms of use, identifying yourself clearly, taking care not to overwhelm a site with large volumes of requests , and a
-number of other considerations. [This article](https://dailydatanews.com/2018/01/17/web-scraping/)
+For these reasons, scraping should be treated as an option of last resort. When a government website does not offer easy methods for obtaining data, journalists typically reach out to the agency and possibly file public records requests to obtain structured data or digital files. They seek to exhaust easier options before turning to their scraping toolkit. 
+
+## Scrape ethically
+
+Scraping ethically implies a number of best practices. To mention a few:
+
+* Respecting a site's terms of use
+* Identifying yourself clearly
+* Taking care not to overwhelm a site with large volumes of requests
+
+
+[This article](https://dailydatanews.com/2018/01/17/web-scraping/)
 lists many of those considerations. Keep in mind that opinions vary
 about what is or is not “ethical” -- or legal -- when it comes to
 scraping. It's an issue that [has been tested in the courts](https://www.eff.org/deeplinks/2019/09/victory-ruling-hiq-v-linkedin-protects-scraping-public-data)
-and will continue to be fought over. *Be mindful of your legal
-responsibilities and potential liability when scraping the web.*
+and will continue to be fought over.
 
-## Scraping in Python
+*Be mindful of your legal responsibilities and potential liability when scraping the web.*
 
-The [requests][] and [BeautifulSoup][] are workhorses for basic web scraping.
+## Python example
+
+The [requests][] and [BeautifulSoup][] libraries are workhorses of basic web scraping in Python.
 
 [requests]: https://2.python-requests.org/en/master/
 [BeautifulSoup]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
@@ -66,12 +78,18 @@ The [requests][] and [BeautifulSoup][] are workhorses for basic web scraping.
 pip install requests bs4
 ```
 
-A super duper simple scraping example:
+A super simple scraping example that extracts the text of the `h1` HTML tag on <http://example.com>.
 
 ```
 import bs4, requests
 url = "http://www.example.com"
 html = requests.get(url).text
-soup = BeautifulSoup(html)
-soup.find('h1')
+soup = bs4.BeautifulSoup(html)
+h1 = soup.find('h1')
+print(h1.text)
 ```
+
+## More resources
+
+- [Web scraping exercises](#exercises.md) - A few sites to challenge your scraping skills.
+- [Web scraping resources](#resources.md) - Tutorials, key concepts, code libraries for scraping, etc.
