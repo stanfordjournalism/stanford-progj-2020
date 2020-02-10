@@ -26,7 +26,7 @@ Scraping is also useful in scenarios where a website offers the most up-to-date 
 
 Here are a few examples where web scraping helped produce news:
 
-* [Accidential shootings involving kids often go unpunished](https://apnews.com/068e01df18184c9a89cd525331020c91), by The Associated Press, relied on data scraped from the [Gun Violence Archive](https://www.gunviolencearchive.org/)/
+* [Accidential shootings involving kids often go unpunished](https://apnews.com/068e01df18184c9a89cd525331020c91), by The Associated Press, relied on data scraped from the [Gun Violence Archive](https://www.gunviolencearchive.org/).
 * [Amazon Says It Puts Customers First. But Its Pricing Algorithm Doesn't](https://www.propublica.org/article/amazon-says-it-puts-customers-first-but-its-pricing-algorithm-doesnt), by ProPublica. Here's the [behind-the-scenes look](https://www.propublica.org/article/how-we-analyzed-amazons-shopping-algorithm) at how they scraped and analyzed Amazon data.
 * [Dollars for Docs](https://projects.propublica.org/docdollars), a searchable news app by ProPublica. Here's a write-up on the [scraping aspect](https://www.propublica.org/nerds/scraping-websites) of the work.
 
