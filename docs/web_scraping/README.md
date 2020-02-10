@@ -24,7 +24,12 @@ Web scraping allows journalists to acquire information in the face of technical 
 
 Scraping is also useful in scenarios where a website offers the most up-to-date or widest scope of information. In such cases, web scraping can help journalists tell a more accurate and timely story.
 
-ProPublica's [Dollars for Docs](https://projects.propublica.org/docdollars) website is a great example. Here's a write-up on the [scraping aspect](https://www.propublica.org/nerds/scraping-websites) of the work.
+Here are a few examples where web scraping helped produce news:
+
+* [Accidential shootings involving kids often go unpunished](https://apnews.com/068e01df18184c9a89cd525331020c91), by The Associated Press, relied on data scraped from the [Gun Violence Archive](https://www.gunviolencearchive.org/)/
+* [Amazon Says It Puts Customers First. But Its Pricing Algorithm Doesn't](https://www.propublica.org/article/amazon-says-it-puts-customers-first-but-its-pricing-algorithm-doesnt), by ProPublica. Here's the [behind-the-scenes look](https://www.propublica.org/article/how-we-analyzed-amazons-shopping-algorithm) at how they scraped and analyzed Amazon data.
+* [Dollars for Docs](https://projects.propublica.org/docdollars), a searchable news app by ProPublica. Here's a write-up on the [scraping aspect](https://www.propublica.org/nerds/scraping-websites) of the work.
+
 
 ## Scraping mechanics and challenges
 
