@@ -36,7 +36,7 @@ structured, URL patterns, etc. -- and then creating a script
 that retrieves (or visits) web pages and extracts the target information.
 
 Scraping can be more or less difficult depending on the nature of the
-site. A simple site with no dynamic content and predictable URL patterns could be a quick job, compared to one that uses web forms, randomized URLs, cookies or sessions, dynamically generated content, password-based logins, etc. Sites often use a combination of these strategies, so it's important to spend time learning how a site works and choose an appropriate [scraping strategy](101.md#-scraping-strategies).
+site. A simple site with no dynamic content and predictable URL patterns could be a quick job, compared to one that uses web forms, randomized URLs, cookies or sessions, dynamically generated content, password-based logins, etc. Sites often use a combination of these strategies, so it's important to spend time learning how a site works and choose an appropriate [scraping strategy](101.md#scraping-strategies).
 
 ## The option of last resort
 
@@ -58,12 +58,12 @@ Scraping ethically implies a number of best practices. To mention a few:
 * Identifying yourself clearly
 * Taking care not to overwhelm a site with large volumes of requests
 
+Here are a few articles that lay out ethical concerns in more detail:
 
-[This article](https://dailydatanews.com/2018/01/17/web-scraping/)
-lists many of those considerations. Keep in mind that opinions vary
-about what is or is not “ethical” -- or legal -- when it comes to
-scraping. It's an issue that [has been tested in the courts](https://www.eff.org/deeplinks/2019/09/victory-ruling-hiq-v-linkedin-protects-scraping-public-data)
-and will continue to be fought over.
+* [On the Ethics of Web Scraping and Data Journalism](https://gijn.org/2015/08/12/on-the-ethics-of-web-scraping-and-data-journalism/)
+* [Ethics in Web Scraping](https://towardsdatascience.com/ethics-in-web-scraping-b96b18136f01)
+
+Keep in mind that opinions vary about what is or is not "ethical" -- or legal -- when it comes to scraping. It's an issue that [has been tested in the courts](https://www.eff.org/deeplinks/2019/09/victory-ruling-hiq-v-linkedin-protects-scraping-public-data) and will continue to be fought over.
 
 *Be mindful of your legal responsibilities and potential liability when scraping the web.*
 
