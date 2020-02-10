@@ -18,7 +18,7 @@ might take to visit a site in a web browser and manually extract information.
 
 Why is web scraping a valuable tool for the news? 
 
-Often, journalistically valuable information is locked up on a website that lacks easier methods for data acquisition. Not all government agencies, for example, offer downloadable CSVs or APIs. Nor do they always to public records requests in a timely or helpful manner.
+Often, journalistically valuable information is locked up on a website that lacks easier methods for data acquisition. Not all government agencies, for example, offer downloadable CSVs or APIs. Nor do they always respond to public records requests in a timely or helpful manner.
 
 Web scraping allows journalists to acquire information in the face of technical or bureaucratic hurdles.
 
