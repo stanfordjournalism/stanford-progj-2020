@@ -112,3 +112,4 @@ No class.
 * [Web scraping 101](docs/web_scraping/101.md) - how to dissect a website, various obstacles to scraping and strategies for overcoming them
 * [Web scraping exercises](docs/web_scraping/exercises.md) - some websites to challenge your newfound scraping skills
 * [Web scraping resources](docs/web_scraping/resources.md) - tutorials, etc.
+* **[Assignment 8](assignments/8.md)** - Web Scraping Ramp-up (**Due: Wed. Feb. 12th @ 1:30pm**)
