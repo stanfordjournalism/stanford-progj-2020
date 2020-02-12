@@ -2,12 +2,12 @@
 
 ## Overview
 
-The [Python script in this directory](calais_example.py) demonstrates how to call the [OpenCalais API][] to perform [entity extraction][]. The example uses a paragraph of text from a 2020 FDA medical device [recall announcement][].
+The [Python script in this directory](calais_example.py) demonstrates how to call the [OpenCalais API][] to perform [entity extraction][]. The example uses a paragraph of text from an FDA medical device [recall announcement][].
 
 
 ## Obtain an API Key
 
-Before using this code, you must [register for an API key][]. 
+Before using this code, you must [register for an API key][].
 
 Once you've registered for an API key, log in to your new Reuters/Refinitiv account at <https://developers.refinitiv.com/>.
 
