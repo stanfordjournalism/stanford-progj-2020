@@ -113,3 +113,11 @@ No class.
 * [Web scraping exercises](docs/web_scraping/exercises.md) - some websites to challenge your newfound scraping skills
 * [Web scraping resources](docs/web_scraping/resources.md) - tutorials, etc.
 * **[Assignment 8](assignments/8.md)** - Web Scraping Ramp-up (**Due: Wed. Feb. 12th @ 1:30pm**)
+
+
+#### Day 12 - API Services and Data Pipelines with Modules
+
+* [API Services](docs/api_services.md)
+* [OpenCalais Entity Extraction](../code/calais_example/README.md)
+* [Data Pipelines with Modules](docs/python/data_pipelines_with_modules.md)
+* **[Project: FDA Recall Entities](projects/fda_recall_entities.md.md)** - Scrape FDA recalls and extract entities using OpenCalais API (**Due: Wed. Feb. 19th @ 1:30pm**)
