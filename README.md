@@ -118,6 +118,6 @@ No class.
 #### Day 12 - API Services and Data Pipelines with Modules
 
 * [API Services](docs/api_services.md)
-* [OpenCalais Entity Extraction](../code/calais_example/README.md)
+* [OpenCalais Entity Extraction](code/calais_example/README.md)
 * [Data Pipelines with Modules](docs/python/data_pipelines_with_modules.md)
-* **[Project: FDA Recall Entities](projects/fda_recall_entities.md.md)** - Scrape FDA recalls and extract entities using OpenCalais API (**Due: Wed. Feb. 19th @ 1:30pm**)
+* **[Project: FDA Recall Entities](projects/fda_recall_entities.md)** - Scrape FDA recalls and extract entities using OpenCalais API (**Due: Wed. Feb. 19th @ 1:30pm**)
