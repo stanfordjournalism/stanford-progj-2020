@@ -157,7 +157,7 @@ From a development perspective, it might make sense to first work through the sc
 python scraper.py
 ```
 
-Once the scraper is working and we've downloaded the necessary files, we can move on to `converter.py`, which parses the pages downloaded by the scraper. Since the converter script presumably relies on the files downloaded by the scraper, we can simply run the converter without triggering all of the scraping processes:
+Once the scraper is working and we've downloaded the necessary files, we can move on to `converter.py`, which presumably parses the pages downloaded by the scraper. Now we can simply run the converter without triggering all of the scraping processes:
 
 ```
 python converter.py
