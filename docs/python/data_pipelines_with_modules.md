@@ -163,11 +163,11 @@ Once the scraper is working and we've downloaded the necessary files, we can mov
 python converter.py
 ```
 
-By loosening the [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) between these steps, we avoid wasting our own development and making unnecessary requests to the website. 
+By loosening the [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) between these steps, we avoid wasting our own development time and making unnecessary requests to the website. 
 
 Had we combined both of these steps in a single Python script, we would find ourselves running all of the scraper code every time we wanted to test the latest changes or additions to our conversion step.
 
-You can imagine how tedious and costly this will grow as a project grows in complexity.
+You can imagine how tedious and costly this will become as a project grows in complexity.
 
 Of course, it's also helpful to create an easy way to run all of the steps in the pipeline. It's quite likely, for example, that a data pipeline such as this would run on an automated schedule. Rather than scheduling numerous individual scripts, it makes sense to create a single script that orchestrates all of the steps. That is precisely the role of `run_pipeline.py`, which imports and executes the top-level functions from `scraper.py` and `converter.py`. 
 
