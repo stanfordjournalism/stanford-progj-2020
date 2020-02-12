@@ -109,7 +109,7 @@ print(code.__name__)
 
 ## Modular data pipelines
 
-The ability to run modules as scripts helps us [chop big problems down to size](../docs/owl_probs_unix.md#cut-your-problems-down-to-size). It allows us to tackle one problem at a time, and then organize each solution into a single automated pipeline.
+The ability to run modules as scripts helps us [chop big problems down to size](../owl_probs_unix.md#cut-your-problems-down-to-size). It allows us to tackle one problem at a time, and then organize each solution into a single automated pipeline.
 
 Here's a very basic example using three files: `scraper.py`, `converter.py`, and `run_pipeline.py`.
 
