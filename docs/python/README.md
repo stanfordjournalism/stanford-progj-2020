@@ -24,4 +24,5 @@ Below are the major topics we'll cover:
   * [Reading and writing text files](file_io.md), [CSVs](csv.md) and JSON
   * [Downloading files](remote_files.md)
   * Sorting
+  * [Creating data pipelines with modules](data_pipelines_with_modules.md)
   * Analyzing data with Jupyter notebooks
