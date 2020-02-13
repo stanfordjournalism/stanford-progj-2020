@@ -24,7 +24,7 @@ Copy the long string of characters next to `Your Key`.
 
 ## Create environment variable
 
-Next, create the below shell environment variable by [exporting it](../../docs/using_env_vars_for_secrets.md) in `~/.bash_profile` and *substituting your API key*:
+Next, create the below shell environment variable by [exporting it][] in `~/.bash_profile` and *substituting your API key*:
 
 ```
 # ~/.bash_profile
@@ -41,7 +41,7 @@ You can now look up the API key in Python code using `os.environ['OPENCALAIS_API
 
 [OpenCalais API]: https://developers.refinitiv.com/open-permid/intelligent-tagging-restful-api
 [entity extraction]: https://en.wikipedia.org/wiki/Named-entity_recognition
-[exporting them]: ../../docs/python/using_env_vars_for_secrets.md
+[exporting it]: ../../docs/python/using_env_vars_for_secrets.md
 [OpenCalais Demo]: https://permid.org/onecalaisViewer
 [recall announcement]: https://www.fda.gov/MedicalDevices/Safety/ListofRecalls/ucm630614.htm
 [register for an API key]: https://iamui.thomsonreuters.com/iamui/UI/createUser?app_id=Bold&realm=Bold&realm=Bold
