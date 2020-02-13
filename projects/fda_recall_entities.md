@@ -7,13 +7,13 @@
 
 ## Overview
 
-This project ties together [web scraping](../docs/python/web_scraping/README.md), an [API service](../docs/api_services.md), and basic data wrangling skills.
+This project ties together [web scraping](../docs/web_scraping/README.md), an [API service](../docs/api_services.md), and basic data wrangling skills.
 
 It requires creating a multi-step [data pipeline](../docs/python/data_pipelines_with_modules.md) that performs the below steps:
 
 * Scrapes FDA recall announcements
 * Performs entity extraction on specific text from each recall announcement using the [OpenCalais/Refinitiv Intelligent Tagging API](https://developers.refinitiv.com/open-permid/intelligent-tagging-restful-api)
-* Generates a CSV containing counts of extracted entities
+* Generates a CSV listing extracted entities
 
 Each of these steps must be encapsulated in [a module that can be executed individually as a script](../docs/python/data_pipelines_with_modules.md#modules-as-scripts).
 
