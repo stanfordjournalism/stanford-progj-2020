@@ -9,11 +9,8 @@ import json
 import requests
 
 
-#CALAIS_URL = 'https://api.thomsonreuters.com/permid/calais'
 CALAIS_URL = 'https://api-eit.refinitiv.com/permid/calais'
-# BELOW VARIABLES MUST BE SET IN ~/.bash_profile
-# See here for more background:
-# https://github.com/stanfordjournalism/stanford-progj-2020/blob/master/code/using_env_vars_for_secrets.md
+# BELOW VARIABLE MUST BE SET IN ~/.bash_profile
 API_KEY = os.environ['OPENCALAIS_API_KEY']
 
 EXAMPLE_TEXT= """

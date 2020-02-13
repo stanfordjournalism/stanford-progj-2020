@@ -1,5 +1,9 @@
 # OpenCalais Entity Extraction
 
+- [Overview](#overview)
+- [Obtain an API Key](#obtain-an-api-key)
+- [Additional resources](#additional-resources)
+
 ## Overview
 
 The [Python script in this directory](calais_example.py) demonstrates how to call the [OpenCalais API][] to perform [entity extraction][]. The example uses a paragraph of text from an FDA medical device [recall announcement][].
@@ -7,7 +11,7 @@ The [Python script in this directory](calais_example.py) demonstrates how to cal
 
 ## Obtain an API Key
 
-Before using this code, you must [register for an API key][].
+Before using this code, you must [register for an API key][]. 
 
 Once you've registered for an API key, log in to your new Reuters/Refinitiv account at <https://developers.refinitiv.com/>.
 
@@ -17,13 +21,10 @@ Once you're logged in, you can obtain your API key by clicking on the user setti
 
 Copy the long string of characters next to `Your Key`.
 
-Next, create the below shell environment variables by [exporting them](../../docs/using_env_vars_for_secrets.md) in `~/.bash_profile` and *substituting your information*:
-
-> Note, use the email that you registered with for the OpenCalais service.
+Next, create the below shell environment variable by [exporting it](../../docs/using_env_vars_for_secrets.md) in `~/.bash_profile` and *substituting your information*:
 
 ```
 # ~/.bash_profile
-export OPENCALAIS_API_USER="USERNAME@email_address.com"
 export OPENCALAIS_API_KEY="YOUR_API_KEY"
 ```
 
