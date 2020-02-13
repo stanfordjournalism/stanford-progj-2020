@@ -2,6 +2,7 @@
 
 - [Overview](#overview)
 - [Obtain an API Key](#obtain-an-api-key)
+- [Create environment variable](#create-environment-variable)
 - [Additional resources](#additional-resources)
 
 ## Overview
@@ -21,14 +22,16 @@ Once you're logged in, you can obtain your API key by clicking on the user setti
 
 Copy the long string of characters next to `Your Key`.
 
-Next, create the below shell environment variable by [exporting it](../../docs/using_env_vars_for_secrets.md) in `~/.bash_profile` and *substituting your information*:
+## Create environment variable
+
+Next, create the below shell environment variable by [exporting it](../../docs/using_env_vars_for_secrets.md) in `~/.bash_profile` and *substituting your API key*:
 
 ```
 # ~/.bash_profile
 export OPENCALAIS_API_KEY="YOUR_API_KEY"
 ```
 
-The script is a simplified version of this [code](http://www.opencalais.com/python-code-sample/).
+You can now look up the API key in Python code using `os.environ['OPENCALAIS_API_KEY']`, as demonstrated in this [example script](calais_example.py).
 
 ## Additional Resources
 
