@@ -154,5 +154,5 @@ As always, to complete the assignment, you must:
 * Push your code to GitHub
 * Submit a link to the GitHub project via Canvas
 
-[portable paths tutorial]: ../docs/python/portable_paths.md
+[portable paths tutorial]: ../docs/python/portable_paths.md#environment-variables-and-pipenv
 [data pipelines with modules]: ../docs/python/data_pipelines_with_modules.md
