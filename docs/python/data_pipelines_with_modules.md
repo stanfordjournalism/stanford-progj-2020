@@ -25,7 +25,7 @@ Below, we'll learn how modules help organize code as part of a data pipeline wit
 
 ## What is a module?
  
-A module is simply a text file with Python code and `.py` extension. 
+A module is simply a text file with Python code and a `.py` extension. 
 
 You've already used plenty of modules in the course of learning Python fundamentals:
 
@@ -39,11 +39,9 @@ import requests
 from bs4 import BeautifulSoup
 ```
 
-In addition to using modules provided by Python or third parties, it's quite easy to create your own modules.
-
 ## Creating modules
 
-Similar to built-in and third-party modules, it's possible to create custom modules containing functions, variables and other importable code.
+Similar to built-in and third-party modules, it's possible to create your own modules containing functions, variables and other importable code.
 
 Below is a basic `code.py` module containing a variable and function:
 
