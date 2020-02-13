@@ -74,7 +74,7 @@ Lastly, you must include the `if __name__ == '__main__':` strategy in the module
 
 Once the text is extracted, it should send the paragraph to the OpenCalais API for entity extraction.
 
-For this step, you *must* create and use an environment variable called `OPENCALAIS_API_KEY` rather than hard-coding your key in the script.
+For this step, you *must* [obtain an API key](../code/calais_example/README.md#obtain-an-api-key) and then create an environment variable called `OPENCALAIS_API_KEY`. This allows you to avoid hard-coding your key in the script.
 
 > **Here is [example code](../code/calais_example/README.md) demonstrating the above techniques.** Additionally, see [Using Environment Variables to Stash Secrets](../docs/python/using_env_vars_for_secrets.md).
 
