@@ -1,8 +1,7 @@
 # API Services
 
 So far we've learned how to use the web as a data source by querying
-APIs and scraping websites. Many sites also offer a myriad of *services*
-via API, which can help us extract or transform information from a
+APIs and scraping websites. Many sites also offer a myriad of *services* via API, which can help us extract or transform information from a
 variety of sources such as text, images, audio and video.
 
 A few examples of API-based services:
@@ -13,7 +12,7 @@ A few examples of API-based services:
 
 - [OCR and image detection](https://cloud.google.com/vision/docs/reference/rest/)
 
-- [Entity Extraction/Linking/Concept identification](http://www.opencalais.com/opencalais-api/)
+- [Entity Extraction/Linking/Concept identification](https://www.refinitiv.com/en/products/intelligent-tagging-text-analytics)
 
 - [Infrastructure](https://docs.aws.amazon.com/index.html#lang/en_us)
      (e.g. spinning up machines in the cloud for data processing or
@@ -43,13 +42,10 @@ common words or phrases.
 
 ## Relevant Reading/Resources
 
--  [OpenCalais API](http://www.opencalais.com/opencalais-api/) with links
+-  [OpenCalais API](https://www.refinitiv.com/en/products/intelligent-tagging-text-analytics) with links
      to demo and API registration
 
 -  [A Practical Approach to Understanding TRIT](https://developers.thomsonreuters.com/article/practical-approach-understanding-and-ingesting-trit-output-your-use-case)
 
--  [OpenCalais API Python code example](http://www.opencalais.com/python-code-sample/)
-     (Thompson Reuters)
 
--  [OpenCalais API simple example](https://github.com/zstumgoren/stanford-progj-2019/tree/master/code/calais_example)
-     (Serdar)
+-  [OpenCalais API example](../code/calais_example)
