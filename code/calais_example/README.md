@@ -14,9 +14,9 @@ The [Python script in this directory](calais_example.py) demonstrates how to cal
 
 Before using this code, you must [register for an API key][]. 
 
-Once you've registered for an API key, log in to your new Reuters/Refinitiv account at <https://developers.refinitiv.com/>.
+Once you've registered for an API key, log in to your new Reuters/Refinitiv account at <https://permid.org/>.
 
-Once you're logged in, you can obtain your API key by clicking on the user settings in the upper right and selecting `My Keys`.
+Once you're logged in, you can obtain your API key by clicking on the "APIs" link in the upper right. Then click on the big green "Display my API token" button (shown below).
 
 ![Locate OpenCalais API Key](../../static/opencalais_get_api_key.png)
 
@@ -25,6 +25,8 @@ Copy the long string of characters next to `Your Key`.
 ## Create environment variable
 
 Next, create the below shell environment variable by [exporting it][] in `~/.bash_profile` and *substituting your API key*:
+
+> **Linux users should add the export to to `~/.bashrc`**
 
 ```
 # ~/.bash_profile
