@@ -121,3 +121,14 @@ No class.
 * [OpenCalais Entity Extraction](code/calais_example/README.md)
 * [Data Pipelines with Modules](docs/python/data_pipelines_with_modules.md)
 * **[Project: FDA Recall Entities](projects/fda_recall_entities.md)** - Scrape FDA recalls and extract entities using OpenCalais API (**Due: Wed. Feb. 19th @ 1:30pm**)
+
+### Week 7
+
+#### Day 13 - President's Day; no class
+
+#### Day 14 - Data Journalism Overview and Intro to Jupyter
+
+* [Data Journalism - A Very Brief Tour](https://docs.google.com/presentation/d/1OPVDw_5toenId-RehkBwuvvV5lJMrHb7579U4Uj1eCg/edit?usp=sharing)
+* [Whirlwind Tour of the Data Journalism Process](https://docs.google.com/presentation/d/1cEoPLJpZ6FVNLtW5f3jtWhgEeIhPv6eqWae85LAFPcs/edit?usp=sharing)
+* [Data Analysis with Jupyter and pandas](docs/python/data_analysis_intro.md)
+* **[Assignment 9 - First Python Notebook](assignments/9.md)**

@@ -13,6 +13,7 @@ Assignment|Description|Solution
 [Assignment 6][] | How the Internet/Web work  |
 [Assignment 7][] | Breaking ranks on impeachment - Python script |
 [Assignment 8][] | Web Scraping Ramp-up |
+[Assignment 9][] | First Python Notebook |
 
 
 [Assignment 0]: 0.md
@@ -24,4 +25,5 @@ Assignment|Description|Solution
 [Assignment 6]: 6.md
 [Assignment 7]: 7.md
 [Assignment 8]: 8.md
+[Assignment 9]: 9.md
 
