@@ -25,4 +25,4 @@ Below are the major topics we'll cover:
   * [Downloading files](remote_files.md)
   * Sorting
   * [Creating data pipelines with modules](data_pipelines_with_modules.md)
-  * Analyzing data with Jupyter notebooks
+  * [Analyzing data with Jupyter notebooks](data_analysis_intro.md)
