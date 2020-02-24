@@ -132,3 +132,16 @@ No class.
 * [Whirlwind Tour of the Data Journalism Process](https://docs.google.com/presentation/d/1cEoPLJpZ6FVNLtW5f3jtWhgEeIhPv6eqWae85LAFPcs/edit?usp=sharing)
 * [Data Analysis with Jupyter and pandas](docs/python/data_analysis_intro.md)
 * **[Assignment 9 - First Python Notebook](assignments/9.md)**
+
+### Week 8
+
+#### Day 15 - Final Project
+
+* **[Final Project - SF Data Analysis](projects/sf_data_analysis.md)** - Overview of final project and begin working on story ideas and data sleuthing/vetting.
+ * **Story idea presentations** are **due Wed. Feb. 26th @ 1:30pm**
+ * **Final project presentations** and related Jupyter notebooks are **due Mon. March 9th @ 1:30pm**.
+
+#### Day 16 - Story idea presentations
+ 
+ * Groups will present story ideas for the [final project](projects/sf_data_analysis.md).
+ * Work on project analysis, with opportunity for one-on-one help (time permitting).
