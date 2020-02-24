@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Deadline](#deadline)
 - [Develop a story idea](#develop-a-story-idea)
-- [Assignment details](#assignment-details)
+- [Notebook details](#notebook-details)
 - [Project phases](#project-phases)
 - [Code setup](#code-setup)
 - [Reference materials](#reference-materials)
@@ -52,7 +52,7 @@ If you can't find a story idea/data of your own, here are a few suggestions that
 - [Eviction notices](https://data.sfgov.org/Housing-and-Buildings/Eviction-Notices/5cei-gny5)
 - [Restaurant scores](https://data.sfgov.org/Health-and-Social-Services/Restaurant-Scores-LIVES-Standard/pyih-qa8i)
 
-## Assignment details
+## Notebook details
 
 Before starting this assignment, please carefully review this [example Jupyter notebook](../code/sfgov/sfpd-incidents.ipynb). It demonstrates the expected style, format and content of this assignment and contains a sprinkling of advice on working with data and technical tips.  Below are resources that are also worth reviewing:
 
@@ -121,7 +121,7 @@ Use `pandas` and any other Python libraries necessary to read the data, assess d
 
 Write narrative in the notebook using [Markdown cells](http://www.firstpythonnotebook.org/markdown/index.html) to explain each code step, why you’re performing it, and the findings.
 
-As mentioned in [assignment details](#assignment-details), you must include at least two data visualizations that explore some facet of the data (simply printing a table does *not* count as a visualization).
+As mentioned in [notebook details](#notebook-details), you must include at least two data visualizations that explore some facet of the data (simply printing a table does *not* count as a visualization).
 
 
 ### Final presentations
