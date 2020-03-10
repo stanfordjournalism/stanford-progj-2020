@@ -152,8 +152,6 @@ No class.
 
 Work on **[Final Project - SF Data Analysis](projects/sf_data_analysis.md)**.
 
-* **Final project presentations** and related Jupyter notebooks are **due Mon. March 9th @ 1:30pm**.
-
 #### Day 18 - class cancelled
 
 No class due to NICAR 2020 conference.
