@@ -142,6 +142,29 @@ No class.
  * **Final project presentations** and related Jupyter notebooks are **due Mon. March 9th @ 1:30pm**.
 
 #### Day 16 - Story idea presentations
- 
+
  * Groups will present story ideas for the [final project](projects/sf_data_analysis.md).
  * Work on project analysis, with opportunity for one-on-one help (time permitting).
+
+### Week 9
+
+#### Day 17 - Data Workshop
+
+Work on **[Final Project - SF Data Analysis](projects/sf_data_analysis.md)**.
+
+* **Final project presentations** and related Jupyter notebooks are **due Mon. March 9th @ 1:30pm**.
+
+#### Day 18 - class cancelled
+
+No class due to NICAR 2020 conference.
+
+### Week 10
+
+#### Day 19 - Final Project Presentations
+
+Present and discuss **[Final Project - SF Data Analysis](projects/sf_data_analysis.md)**.
+
+#### Day 20 - Presentations and course wrap-up
+
+Wrap up final project presentations, followed by
+course review and reflection.
