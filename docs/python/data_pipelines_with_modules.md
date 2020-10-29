@@ -91,9 +91,9 @@ Above, the `if __name__ == '__main__'` line is the secret sauce for creating a d
 
 The strategy relies on the built-in `__name__` variable to determine if a module has been run as a script or imported by another module.
 
-*The value of `__name__` will vary depending on how the module is being used.* When the file is run as a script (`python code.py`), Python automatically sets the value to the string [`'__main__'`](https://docs.python.org/3/library/__main__.html). In this context, the condition is true and therefore `do_stuff()` will run.
+*The value of `__name__` will vary depending on how the module is being used.* When the file is run as a script (`python code.py`), Python automatically sets the value to the string [`'__main__'`](https://docs.python.org/3/library/__main__.html). In this context, the condition is true and therefore `api_call()` will run.
 
-However, when another module imports `code.py`, the module's own name (minus the `.py` suffix) is set as the value for `__name__`.  In this case, `__name__` will equal  `'code'`. Therefore, the condition will *not* be true and `do_stuff()` will not run.
+However, when another module imports `code.py`, the module's own name (minus the `.py` suffix) is set as the value for `__name__`.  In this case, `__name__` will equal  `'code'`. Therefore, the condition will *not* be true and `api_call()` will not run.
 
 Here's a concrete example using a revised version of `do_stuff.py`:
 
